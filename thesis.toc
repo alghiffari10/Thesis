@@ -1,0 +1,68 @@
+\babel@toc {bahasa}{}\relax 
+\contentsline {chapter}{Lembar Pengesahan}{ii}{section*.2}%
+\contentsline {chapter}{Halaman Pernyataan Orisinalitas}{iii}{section*.3}%
+\contentsline {chapter}{Halaman Persetujuan Publikasi}{iv}{section*.4}%
+\contentsline {chapter}{Kata Pengantar}{v}{section*.5}%
+\contentsline {chapter}{Ringkasan}{vi}{section*.6}%
+\contentsline {chapter}{Abstrak}{vii}{section*.7}%
+\contentsline {chapter}{Abstract}{viii}{section*.8}%
+\contentsline {chapter}{Daftar Isi}{ix}{section*.9}%
+\contentsline {chapter}{Daftar Tabel}{xii}{section*.10}%
+\contentsline {chapter}{Daftar Gambar}{xiii}{section*.11}%
+\contentsline {chapter}{Daftar Persamaan}{xv}{section*.12}%
+\contentsline {chapter}{\numberline {I}Pendahuluan}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Rumusan masalah}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Tujuan}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Batasan Masalah}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Manfaat Penelitian}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{4}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Bab I}{5}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Bab II}{5}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Bab III}{5}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Bab IV}{5}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Bab V}{5}{subsection.1.6.5}%
+\contentsline {chapter}{\numberline {II}Tinjauan Pustaka}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Tinjauan Pustaka}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Dasar Teori}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Machine Learning}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Supervised Learning}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}\textit {Gradient Descent}}{16}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Perhitungan \textit {Cost Function}}{17}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Cara Kerja \textit {Gradient Descent}}{18}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Learning Rate}{19}{subsubsection.2.2.3.3}%
+\contentsline {subsection}{\numberline {2.2.4}Kartu Kredit}{20}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}\textit {Imbalanced data}}{22}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}\textit {Hyperparameter}}{23}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Feature Engineering}{24}{subsection.2.2.7}%
+\contentsline {subsubsection}{\numberline {2.2.7.1}Feature Creation}{24}{subsubsection.2.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.2.7.2}Feature Scaling}{25}{subsubsection.2.2.7.2}%
+\contentsline {subsection}{\numberline {2.2.8}\textit {Oversampling}}{27}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}SMOTE (Synthetic Minority Over-sampling Technique)}{27}{subsection.2.2.9}%
+\contentsline {subsubsection}{\numberline {2.2.9.1}Cara Kerja SMOTE}{27}{subsubsection.2.2.9.1}%
+\contentsline {subsection}{\numberline {2.2.10}ADASYN (Adaptive Synthetic Sampling)}{29}{subsection.2.2.10}%
+\contentsline {subsubsection}{\numberline {2.2.10.1}Cara kerja ADASYN}{29}{subsubsection.2.2.10.1}%
+\contentsline {subsection}{\numberline {2.2.11}\textit {Decision Tree}}{31}{subsection.2.2.11}%
+\contentsline {subsection}{\numberline {2.2.12}Random Forest}{33}{subsection.2.2.12}%
+\contentsline {subsection}{\numberline {2.2.13}XGBoost}{34}{subsection.2.2.13}%
+\contentsline {subsection}{\numberline {2.2.14}Evaluasi Model}{35}{subsection.2.2.14}%
+\contentsline {subsubsection}{\numberline {2.2.14.1}Precision}{36}{subsubsection.2.2.14.1}%
+\contentsline {subsubsection}{\numberline {2.2.14.2}Recall}{36}{subsubsection.2.2.14.2}%
+\contentsline {subsubsection}{\numberline {2.2.14.3}F1-Score}{37}{subsubsection.2.2.14.3}%
+\contentsline {subsubsection}{\numberline {2.2.14.4}Matthews correlation coefficient}{37}{subsubsection.2.2.14.4}%
+\contentsline {chapter}{\numberline {III}Analisis dan Perancangan}{38}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Alur Penelitian}{38}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Penjabaran Langkah Penelitian}{39}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Studi Literatur}{39}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Pengumpulan Data}{40}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Eksplorasi dan Analisis Data}{40}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Persiapan Data}{42}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Pembuatan Model}{44}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Evaluasi}{45}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Analisis dan Pembahasan}{46}{subsection.3.2.7}%
+\contentsline {section}{\numberline {3.3}Alat dan Bahan Tugas Akhir}{46}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Alat}{46}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Bahan}{47}{subsection.3.3.2}%
+\contentsline {chapter}{Daftar Pustaka}{48}{section*.41}%
+\contentsline {chapter}{Lampiran}{54}{chapter*.42}%
+\contentsline {section}{\numberline {A}Dataset}{54}{section.Alph0.1}%

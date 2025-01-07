@@ -1,0 +1,32 @@
+\babel@toc {bahasa}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Cara Kerja Supervised Learning}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Scatter Plot Linear Regression}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Scatter Plot Cost Function}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Gradient Descent}}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Learning Rate Terlalu Kecil}}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Learning Rate Terlalu Besar}}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Kartu Kredit}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Visualisasi Imbalanced Data}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Visualisasi Sebelum Feature Creation}}{24}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Visualisasi Sesudah Feature Creation}}{25}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Visualisasi Sebelum Feature Scaling}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Visualisasi Sesudah Feature Scaling}}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Visualisasi Data Sebelum SMOTE}}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Visualisasi Data Sesudah SMOTE}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Visualisasi Data Sebelum ADASYN}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Visualisasi Data Sesudah ADASYN}}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Decision Tree}}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Random Forest}}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Confusion Matrix}}{35}{figure.caption.31}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Alur Penelitian}}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Skema Pembuatan Model}}{39}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Perbandingan Transaksi Normal dan Penipuan}}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Perbandingan Distribusi Transaksi Normal dan Penipuan Berdasarkan Waktu}}{41}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Perbandingan Jumlah Transaksi Transaksi Normal dan Penipuan}}{42}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Jumlah Transaksi 0 Sampai 100}}{42}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Jumlah Transaksi 2500 Sampai 25000}}{42}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Visualisasi Data TSNE sebelum dan Sesudah SMOTE dan ADASYN}}{44}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Alur Pembuatan Model}}{44}{figure.caption.40}%

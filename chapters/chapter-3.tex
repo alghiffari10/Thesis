@@ -1,0 +1,191 @@
+\newpage
+\chapter{Analisis dan Perancangan} \label{Bab III}
+
+\section{Alur Penelitian} \label{III.Alur}
+berikut merupakan alur penelitian yang dilakukan oleh peneliti.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figure/alur_penelitian.png}
+	\caption{Alur Penelitian}
+	\label{fig:3.alur penelitian}
+\end{figure}
+
+\section{Penjabaran Langkah Penelitian} \label{III.Jabar Alur}
+Alur penelitian yang akan dilakukan memiliki beberapa tahapan yang dilakukan secara bertahap dan terdapat sub tahapan pada persiapan data dan juga pembuatan model yang dapat kita lihat pada gambar \ref{fig:3.Skema Pembuatan Model}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figure/pembuatanmodel.png}
+	\caption{Skema Pembuatan Model}
+	\label{fig:3.Skema Pembuatan Model}
+\end{figure}
+
+\subsection{Studi Literatur} \label{III.StudiLiteratur}
+Proses ini merupakan proses awal yang perlu dilakukan dalam melakukan penilitan guna memahami dan mengetahui teori-teori yang dibutuhkan dalam penelitian. Studi literatur yang dilakukan mencakup algoritma apa yang digunakan dan metode apa yang digunakan dalam membangun model pendeteksi kartu kredit. Hasil dari proses studi literatur yang peneliti lakukan yang berlandasan kepada 6 penelitian yang tinjau pustakanya menunjukan belum adanya analisis yang berfokus kepada teknik oversampling dalam mengatasi transaksi penipuan kartu kredit. Riset-riset sebelumnya banyak berfokus kepada algoritma \textit{machine learning} apa yang digunakan, padahal proses \textit{oversampling} sangat menentukan apakah sebuah algoritma itu bisa berjalan dengan baik atau tidak\cite{ningsih2022analisis}, terkhusus pada kasus deteksi penipuan kartu kredit. \textit{Imbalanced data} pada dataset kartu kredit merupakan hal krusial dalam pembuatan model pendekteksi penipuan kartu kredit dikarenakan dapat membuat model \textit{machine learnng} menjadi bias terhadap kelas minoritas dan salah cara efektif untuk mengatasi masalah hal tersebut ialah dengan menggunakan teknik oversampling\cite{liu2004effect}.
+\subsection{Pengumpulan Data} \label{III.pengumpulandata}
+Pada proses ini peneliti menggunakan dataset yang dikumpulkan oleh \textit{machine learning group} dari Université Libre de Bruxelles\cite{WinNT,leborgne2022fraud} yang berisi transaksi yang terjadi di eropa. Dataset ini memiliki 492 frauds(penipuan) dari 284.807 transaksi. Dataset ini dipilih oleh peneliti dikarenakan \textit{dataset} tersebut sangat tidak seimbang(\textit{ highly unbalanced}) dengan persentase penipuan sebesar 0.172\% yang dapat dilihat pada gambar \ref{fig:3.Perbandingan Transaksi Normal dan Penipuan} yang membuat dataset tersebut sangat cocok dalam penelitian ini.\\
+Dataset tersebut disajikan dalam bentuk file CSV. Dataset tersebut memiliki 30 fitur dan satu label dengan 28 fiturnya sudah dalam bentuk \textit{PCA transformation} guna melindungi privasi data(confidentiality issues) dan 2 fitur lainya tidak dirubah kedalam bentuk PCA adalah \textit{time}, dan \textit{amount} dan untuk label berupa \textit{class}. Fitur 'Time' berisi jumlah detik yang telah berlalu antara setiap transaksi dan transaksi pertama dalam dataset. Fitur 'Amount' merupakan jumlah transaksi. Label 'Class' ini berisi 2 bentuk 1 dan 0 yang mana 1 merupakan \textit{fraud} dan 0 \textit{non-fraud}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figure/perbandinganpersentasenormalpenipuan.png}
+	\caption{Perbandingan Transaksi Normal dan Penipuan}
+	\label{fig:3.Perbandingan Transaksi Normal dan Penipuan}
+\end{figure}
+
+\subsection{Eksplorasi dan Analisis Data}
+Hasil dari explorasi dan analisis data pada tipe data  dataset \textit{credit card fraud detection} memiliki tipe data \textit{float64} pada hampir semua fiturnya kecuali pada fitur class yang memiliki tipe data \textit{int64} dikarenakan fitur class masih dalam bentuk int64, sebaiknya diubah tipe datanya kedalam bentuk tipe data \textit{category} dikarenakan membuat penggunaan memori menjadi efisien\cite{mckinney2024pandas}. Memori efisien  berpotensi meningkatkan performa dalam \textit{training model}. \\
+Peneliti selanjutnya mencoba untuk melakukan analisis dataset pada fitur time dan amount dikarenakan 2 fitur tersebut tidak diubah kedalam bentuk PCA dan peneliti ingin melihat apakah fitur tersebut tetap dipertahankan atau tidak. Pada fitur \textit{time} peneliti akan melakukan observasi distribusi pada transaksi normal dan penipuan berdasarkan waktu dengan menggunakan diagram KDE untuk melihat distribusinya, yang dapat dilihat pada gambar \ref{fig:3.Perbandingan Distribusi Transaksi Normal dan Penipuan Berdasarkan Waktu} yang mana pada figure tersebut bisa kita lihat kalau kedua transaksi normal dan penipuan memiliki distribusi ganda yang memiliki dua puncak yang berarti merupakan \textit{bimodal distribution}\cite{gonick1993cartoon}, hal ini menunjukkan bahwa transaksi dalam dataset terjadi pada dua periode waktu yang berbeda dan setelah itu dapat kita lihat kalau transaksi normal dan penipuan juga merupakan \textit{distribution overlap}\cite{gonick1993cartoon} dikarenakan hal itu kita akan tetap mempertahankan menggunakan \textit{feature} tersebut. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figure/distribusiwaktunormalpenipuan.png}
+	\caption{Perbandingan Distribusi Transaksi Normal dan Penipuan Berdasarkan Waktu}
+	\label{fig:3.Perbandingan Distribusi Transaksi Normal dan Penipuan Berdasarkan Waktu}
+\end{figure}
+Pada fitur \textit{amount} peneliti akan melakukan observasi distribusi pada transaksi normal dan penipuan berdasarkan \textit{amount} yang dilakukan menggunakan diagram KDE sama seperti saat melakukan observasi pada fitur \textit{time}. Berdasarkan hasil observasi distribusi pada gambar \ref{fig:3.Perbandingan Jumlah Transaksi Transaksi Normal dan Penipuan} menunjukan bahwa distribusi dari kedua fitur tersebut merupakan \textit{skewed distribution} yang terpusat pada jumlah transaksi yang rendah(diantara 0 sampai 100) yang dapat kita lihat pada gambar \ref{fig:3.Jumlah Transaksi 0 Sampai 100}. Kedua fitur tersebut merupakan \textit{overlap distribution} namun sedikit perbedaan yang cukup jelas bahwa distribusi transaksi penipuan lebih rendah daripada transaksi normal dan perbedaan selanjutnya pada kedua fitur tersebut ialah transaksi penipuan jarang terjadi pada jumlah transaksi besar(diatas 2500 sampai 25000) yang dapat dilihat pada gambar \ref{fig:3.Jumlah Transaksi 2500 Sampai 25000} dikarenakan banyaknya hubungan yang membedakan transaksi normal dan penipuan, fitur \textit{amount} akan digunakan oleh peneliti.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figure/jumlah transaksi.png}
+	\caption{Perbandingan Jumlah Transaksi Transaksi Normal dan Penipuan}
+	\label{fig:3.Perbandingan Jumlah Transaksi Transaksi Normal dan Penipuan}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figure/nolsampaiseratus.png}
+	\caption{Jumlah Transaksi 0 Sampai 100}
+	\label{fig:3.Jumlah Transaksi 0 Sampai 100}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figure/jumlahtransaksiduaribulimaratus.png}
+	\caption{Jumlah Transaksi 2500 Sampai 25000}
+	\label{fig:3.Jumlah Transaksi 2500 Sampai 25000}
+\end{figure}
+
+\subsection{Persiapan Data}
+Proses memuat persiapan data sebelum diinputkan ke dalam \textit{machine learning}. Setelah peneliti melakukan analisis dan eksplorasi data, ada beberapa hal yang perlu dilakukan dalam persiapan data, yang pertama ialah mengecek apakah ada \textit{missing value} didalam dataset, dengan cara mengecek persentase dari setiap feature yang ada pada dataset dengan menggunakan formula berikut:\\
+\begin{equation}
+\text{Null\_Percentage}_i = \left( \frac{\sum_{j=1}^{n} \mathbf{1} \{ x_{ij} = \text{null} \}}{n} \right) \times 100
+\end{equation}\\
+Setelah itu peneliti akan melakukan\textit{split} data train dan test dengan metode pengambilan datanya dengan menggunakan \textit{stratified sampling} dengan format 80:20, 80\% data training dan 20\% data test dengan menggunakan modul sklearn model selection dengan melakukan import train\_test\_split. Setelah itu Penelti akan melakukan feature scaling pada feature amount dikarenakan feature amount ukuran nya masih sangat berbeda dibandingkan dengan feature lainya yang sudah dilakukan PCA transformation. Untuk itu, penelti akan melakukan feature scaling dengan menggunakan \textit{Robust Scaling}
+dari sklearn. Hasil dari feature scaling pada data training dapat dilihat perubahaannya dari table 3.2 menjadi 3.3.\\
+\begin{longtable}{| m{0.6cm} | m{2cm}|}
+\caption{5 Data Train Amount Sebelum Scaling} \label{tab:trainingsebelumscaling} \\
+\hline
+No. & Amount  \\ 
+\hline
+\endhead
+\hline \multicolumn{2}{r}{\textit{Continued}} \\ \hline
+\endfoot
+\endlastfoot
+1 & 7.32  \\ 
+\hline
+2 & 2.99  \\ 
+\hline
+3 & 175.10  \\ 
+\hline
+4 & 6.10  \\ 
+\hline
+5 & 86.10  \\ 
+\hline
+\end{longtable}
+\begin{longtable}{| m{0.6cm} | m{2cm}|}
+\caption{5 Data Train Amount Sesudah Feature Scaling} \label{tab:trainingsesudahscaling} \\
+\hline
+No. & Amount  \\ 
+\hline
+\endhead
+\hline \multicolumn{2}{r}{\textit{Continued}} \\ \hline
+\endfoot
+\endlastfoot
+1 & 0.000258  \\ 
+\hline
+2 & 0.000161  \\ 
+\hline
+3 & 0.006816  \\ 
+\hline
+4 & 0.000237  \\ 
+\hline
+5 & 0.003351  \\ 
+\hline
+\end{longtable}
+Selanjutnya peneliti akan melakukan metode \textit{oversampling} yang akan diimplementasikan pada skema 2 dan 3 yang dapat divisualisasikan kedalam plot diagram. namun sebelum itu, agar dapat divisualisasikan kedalam plot diagram yang berupa 2 dimensi data harus diubah dimensinya dikarenakan data yang kita miliki merupakan 30 dimensi, perubahan dimensi tanpa menghilangkan relationship data ialah dengan menggunakan T-SNE dikarenakan T-SNE , hasil dari T-SNE dapat dilihat pada gambar \ref{fig:3.Visualisasi Data TSNE sebelum dan Sesudah SMOTE dan ADASYN}. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figure/plot tsne.png}
+	\caption{Visualisasi Data TSNE sebelum dan Sesudah SMOTE dan ADASYN}
+	\label{fig:3.Visualisasi Data TSNE sebelum dan Sesudah SMOTE dan ADASYN}
+\end{figure}
+
+\subsection{Pembuatan Model}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figure/AlurPembuatanModel.png}
+	\caption{Alur Pembuatan Model}
+	\label{fig:3.alur pembuatan model}
+\end{figure}
+Proses ini akan berfokus pada tuning \textit{hyperparameter} model machine learning dengan \textit{cross validation} dengan menggunakan scoring mcc dan melakukan \textit{training model} dengan nilai \textit{hyperparameter} terbaik. Tuning Hyperparameter dilakukan dengan menggunakan \textit{hyperparameter optimization framework} bernama optuna. Pada algoritma \textit{machine learning random forest} \textit{hyperparameter} yang akan dituning berupa\cite{albahli2024efficient}:
+\begin{enumerate}[noitemsep]
+    \item n\_estimator dengan range nilai dari 200 ke 500.
+    \item max\_depth dengan range nilai 5 ke 30.
+    \item min\_sample\_split dengan range nilai 5 ke 30.
+    \item min\_sample\_leaf dengan range nilai 5 ke 30.
+    \item max\_feature dengan pilihan 'auto', 'sqrt', dan 'log2'.
+    \item bootstrap dengan pilihan \textit{true} or \textit{false}.
+\end{enumerate}
+Pada algoritma \textit{machine learning xgboost} \textit{hyperparamter} yang akan dituning dengan menggunakan optuna adalah sebagai berikut\cite{Verma2024ExploringKX}:
+\begin{enumerate}[noitemsep]
+    \item max\_depth dengan range 3 ke 10.
+    \item learning\_rate dengan range 0.01 ke 0.1.
+    \item n\_estimator dengan range 200 ke 500.
+    \item min\_child\_weight dengan range 3 ke 10.
+    \item subsample dengan range 0.6 ke 1.0.
+    \item colsample\_bytree dengan range 0.6 ke 1.0.
+    \item gamma dengan range 0 ke 1.0.
+    \item alpha dengan range 0 ke 5.
+\end{enumerate}
+Setelah melakukan hyperparameter tuning penelti akan memilih \textit{hyperparameter} terbaik untuk membuat model random forest dan juga xgboost.
+
+\subsection{Evaluasi}
+Pengujian dilakukan dengan melihat berdasarkan nilai dari  \textit{precision}, \textit{recall}, \textit{f-1 score}, dan \textit{Matthews’s correlation coefficient} (MCC) pada setiap model yang digunakan dalam penelitian ini seperti \textit{random forest} dan \textit{xgboost}. Evalusi akan dilakukan dengan 4 skenario yaitu dengan membandingkan  hasil skenario tersebut dan setiap skenario akan membuat dua model \textit{random forest} dan \textit{xgboost} dengan metode tertentu.
+\begin{enumerate}[noitemsep]
+    \item Skenario pertama: Pada skenario pertama peneliti akan melakukan pengecekan performa dari model \textit{random forest} dan \textit{xgboost} tanpa melakukan metode oversampling, yang artinya model dibuat berdasarkan data yang tidak seimbang. Pengecekan perfoma akan dilihat berdasarkan \textit{precision}, \textit{recall},     \textit{f1-score}, dan \textit{Matthews’s correlation coefficient} (MCC) .
+    \item Skenario kedua: pada skenario kedua peneliti akan melakukan pengecekan performa dari model \textit{random forest} dan \textit{xgboost} dengan menggunakan metode oversampling SMOTE. Pengecekan perfoma akan dilihat berdasarkan \textit{precision}, \textit{recall},    \textit{f1-score}, dan \textit{Matthews’s correlation coefficient} (MCC).
+    \item Skenario ketiga: pada skenario ketiga peneliti akan melakukan pengecekan performa dari model \textit{random forest} dan \textit{xgboost} dengan menggunakan metode oversampling ADASYN. Pengecekan perfoma akan dilihat berdasarkan \textit{precision}, \textit{recall}, \textit{f1-score}, dan \textit{Matthews’s correlation coefficient} (MCC).
+    \item Skenario keempat: pada skenario keempat peneliti akan melakukan pengecekan performa secara menyeluruh dengan membandingkan seluruh hasil dari setiap 6 percobaan yang dilakukan dan menentukan hasil percobaan terbaik dengan melihat metriks performa berdasarkan \textit{precision}, \textit{recall}, \textit{f1-score}, dan \textit{Matthews’s correlation coefficient} (MCC).
+\end{enumerate}
+\subsection{Analisis dan Pembahasan}
+Pada tahap in, dilakukan analisis lebih lanjut beserta pembahasan secara detail terhadap pengujian yang telah dilakukan. Setelah melakukan analisis akan dilakukan proses pembahasan dalam bentuk penulisan laporan.
+
+\section{Alat dan Bahan Tugas Akhir}
+Adapun alat dan bahan yang digunakan dalam penelitian ini adalah sebagai berikut:
+\subsection{Alat}
+Berikut adalah alat yang digunakan dalam penelitian ini:
+\begin{enumerate}
+    \item Spesifikasi Laptop, komputer atau notebook:
+    \begin{enumerate}
+        \item Minimum spesifikasi komputer, laptop, atau notebook agar dapat melakukan penelitian ini, sebagai berikut:
+        \begin{enumerate}
+            \item Sistem operasi linux atau  Windows 10 (64-bit), x86-64 based Menggunakan Processor Intel Core i5.
+            \item Menggunakan Processor Intel Core i5 atau AMD Ryzen 5.
+            \item Kebutuhan RAM paling minimal 8 GB.
+            \item Memiliki ruang memori yang bebas setidaknya 10 GB.
+        \end{enumerate}
+        \item Pada penelitian ini penulis menggunakan laptop dengan spesifikasi sebagai berikut:
+        \begin{enumerate}
+            \item ubuntu 22.04.4(64-bit),x86\_64 based
+            \item AMD Ryzen 5 4600H with Radeon G 
+            \item RAM 8.
+            \item SSD 512GB
+            \item GPU: NVIDIA GeForce GTX 1650 Ti
+        \end{enumerate}
+    \end{enumerate}
+    \item Visual Studio Code
+    \item Scikit-Learn
+\end{enumerate}
+\subsection{Bahan}
+Berikut adalah bahan yang digunakan dalam penelitian ini:
+\begin{enumerate}
+    \item Dataset yang digunakan ialah dataset Credit Card Fraud Detection yang dikumpulkan dan dianalisis oleh \textit{machine learning group} Université Libre de Bruxelles(ULB)
+    \item Jurnal penelitian   dari penelitian sebelumnya yang dijadikan dasar teori dan rangkaian konsep serta ide untuk mendukung penelitian.
+\end{enumerate}
+
+
