@@ -1,9 +1,9 @@
-PWD /home/han/Project Raihan/Judul Tugas Akhir
+PWD /home/han/Project Raihan/Tugas Akhir
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/han/Project Raihan/Judul Tugas Akhir/thesis.tex
+INPUT thesis.tex
 OUTPUT thesis.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -499,6 +499,7 @@ INPUT ./chapters/abstract-en.tex
 INPUT chapters/abstract-en.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-ot1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Bold-tlf-ot1.tfm
 INPUT ./thesis.toc
 INPUT ./thesis.toc
 INPUT thesis.toc
@@ -514,10 +515,10 @@ INPUT ./thesis.lof
 INPUT ./thesis.lof
 INPUT thesis.lof
 OUTPUT thesis.lof
-INPUT ./thesis.equ
-INPUT ./thesis.equ
-INPUT thesis.equ
-OUTPUT thesis.equ
+INPUT ./thesis.loe
+INPUT ./thesis.loe
+INPUT thesis.loe
+OUTPUT thesis.loe
 INPUT ./chapters/chapter-1.tex
 INPUT ./chapters/chapter-1.tex
 INPUT ./chapters/chapter-1.tex

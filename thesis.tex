@@ -70,26 +70,46 @@
 %    \input{chapters/motto}
 %    \input{chapters/dedicated}
 
-	% Daftar Isi
-	\phantomsection% 
+    % Configuration every chapter of Tableof content/table/image
+    % TODO 1- DONE Revisi Revisi List Daftar (Configure Daftar Gambar is on  Config) 
+% ---------------------------
+% Standard Lists (TOC, Tables, and Figures)
+% ---------------------------
+\renewcommand{\contentsname}{\LARGE Daftar Isi}
+\renewcommand{\listtablename}{\LARGE Daftar Tabel}
+\renewcommand{\listfigurename}{\LARGE Daftar Gambar}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Huge\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\setlength{\cftaftertoctitleskip}{10pt}
+
+\renewcommand{\cftlottitlefont}{\hfill\Huge\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+\setlength{\cftafterlottitleskip}{10pt}
+
+\renewcommand{\cftloftitlefont}{\hfill\Huge\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\setlength{\cftafterloftitleskip}{10pt}
+
 	\addcontentsline{toc}{chapter}{Daftar Isi}
-    \tableofcontents
-    \pagebreak
-    % Daftar tabel
-    \phantomsection% 
-    \addcontentsline{toc}{chapter}{Daftar Tabel}
-    \listoftables
-    \pagebreak
-    % Daftar gambar
-    \phantomsection% 
-    \addcontentsline{toc}{chapter}{Daftar Gambar}
-    \listoffigures
-    \pagebreak
-    % Daftar persamaan
-    \phantomsection% 
-    \addcontentsline{toc}{chapter}{Daftar Persamaan}
-    \listofmyequations
-    \pagebreak
+	\tableofcontents
+	\pagebreak
+	% Daftar tabel
+
+	\phantomsection% 
+	\addcontentsline{toc}{chapter}{Daftar Tabel}
+	\listoftables
+	\pagebreak
+	% Daftar gambar
+	\phantomsection% 
+	\addcontentsline{toc}{chapter}{Daftar Gambar}
+	\listoffigures
+	\pagebreak
+	% Daftar persamaan
+	\phantomsection% 
+	\addcontentsline{toc}{chapter}{Daftar Persamaan}
+	\listofmyequations
+	\pagebreak
 %    \input{chapters/symbols}
 
     %----------------------------------------------------------------%

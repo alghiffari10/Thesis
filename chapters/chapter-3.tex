@@ -32,7 +32,8 @@ Dataset tersebut disajikan dalam bentuk file CSV. Dataset tersebut memiliki 30 f
 \end{figure}
 
 \subsection{Eksplorasi dan Analisis Data}
-Hasil dari explorasi dan analisis data pada tipe data  dataset \textit{credit card fraud detection} memiliki tipe data \textit{float64} pada hampir semua fiturnya kecuali pada fitur class yang memiliki tipe data \textit{int64} dikarenakan fitur class masih dalam bentuk int64, sebaiknya diubah tipe datanya kedalam bentuk tipe data \textit{category} dikarenakan membuat penggunaan memori menjadi efisien\cite{mckinney2024pandas}. Memori efisien  berpotensi meningkatkan performa dalam \textit{training model}. \\
+Hasil dari explorasi dan analisis data pada tipe data  dataset \textit{credit card fraud detection} memiliki tipe data \textit{float64} pada hampir semua fiturnya kecuali pada fitur class yang memiliki tipe data \textit{int64} dikarenakan fitur class masih dalam bentuk int64, sebaiknya diubah tipe datanya kedalam bentuk tipe data \textit{category} dikarenakan membuat penggunaan memori menjadi efisien\cite{mckinney2024pandas}. Memori efisien  berpotensi meningkatkan performa dalam \textit{training model}. 
+
 Peneliti selanjutnya mencoba untuk melakukan analisis dataset pada fitur time dan amount dikarenakan 2 fitur tersebut tidak diubah kedalam bentuk PCA dan peneliti ingin melihat apakah fitur tersebut tetap dipertahankan atau tidak. Pada fitur \textit{time} peneliti akan melakukan observasi distribusi pada transaksi normal dan penipuan berdasarkan waktu dengan menggunakan diagram KDE untuk melihat distribusinya, yang dapat dilihat pada gambar \ref{fig:3.Perbandingan Distribusi Transaksi Normal dan Penipuan Berdasarkan Waktu} yang mana pada figure tersebut bisa kita lihat kalau kedua transaksi normal dan penipuan memiliki distribusi ganda yang memiliki dua puncak yang berarti merupakan \textit{bimodal distribution}\cite{gonick1993cartoon}, hal ini menunjukkan bahwa transaksi dalam dataset terjadi pada dua periode waktu yang berbeda dan setelah itu dapat kita lihat kalau transaksi normal dan penipuan juga merupakan \textit{distribution overlap}\cite{gonick1993cartoon} dikarenakan hal itu kita akan tetap mempertahankan menggunakan \textit{feature} tersebut. 
 \begin{figure}[H]
 	\centering
@@ -64,7 +65,8 @@ Pada fitur \textit{amount} peneliti akan melakukan observasi distribusi pada tra
 Proses memuat persiapan data sebelum diinputkan ke dalam \textit{machine learning}. Setelah peneliti melakukan analisis dan eksplorasi data, ada beberapa hal yang perlu dilakukan dalam persiapan data, yang pertama ialah mengecek apakah ada \textit{missing value} didalam dataset, dengan cara mengecek persentase dari setiap feature yang ada pada dataset dengan menggunakan formula berikut:\\
 \begin{equation}
 \text{Null\_Percentage}_i = \left( \frac{\sum_{j=1}^{n} \mathbf{1} \{ x_{ij} = \text{null} \}}{n} \right) \times 100
-\end{equation}\\
+\end{equation}
+
 Setelah itu peneliti akan melakukan\textit{split} data train dan test dengan metode pengambilan datanya dengan menggunakan \textit{stratified sampling} dengan format 80:20, 80\% data training dan 20\% data test dengan menggunakan modul sklearn model selection dengan melakukan import train\_test\_split. Setelah itu Penelti akan melakukan feature scaling pada feature amount dikarenakan feature amount ukuran nya masih sangat berbeda dibandingkan dengan feature lainya yang sudah dilakukan PCA transformation. Untuk itu, penelti akan melakukan feature scaling dengan menggunakan \textit{Robust Scaling}
 dari sklearn. Hasil dari feature scaling pada data training dapat dilihat perubahaannya dari table 3.2 menjadi 3.3.\\
 \begin{longtable}{| m{0.6cm} | m{2cm}|}
@@ -131,6 +133,7 @@ Proses ini akan berfokus pada tuning \textit{hyperparameter} model machine learn
     \item max\_feature dengan pilihan 'auto', 'sqrt', dan 'log2'.
     \item bootstrap dengan pilihan \textit{true} or \textit{false}.
 \end{enumerate}
+
 Pada algoritma \textit{machine learning xgboost} \textit{hyperparamter} yang akan dituning dengan menggunakan optuna adalah sebagai berikut\cite{Verma2024ExploringKX}:
 \begin{enumerate}[noitemsep]
     \item max\_depth dengan range 3 ke 10.
@@ -142,6 +145,7 @@ Pada algoritma \textit{machine learning xgboost} \textit{hyperparamter} yang aka
     \item gamma dengan range 0 ke 1.0.
     \item alpha dengan range 0 ke 5.
 \end{enumerate}
+
 Setelah melakukan hyperparameter tuning penelti akan memilih \textit{hyperparameter} terbaik untuk membuat model random forest dan juga xgboost.
 
 \subsection{Evaluasi}

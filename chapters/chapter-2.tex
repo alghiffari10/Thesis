@@ -13,42 +13,46 @@ Pada penelitian ini, peneliti melakukan eksplorasi dan mendapatkan tinjauan pust
     \item Tahun 2023, Purwar, Archana and Manju, Ms, melakukan penelitian terkait \textit{Credit card fraud detection using XGBoost for imbalance dataset}. Tujuan dari penelitian ini ialah membuat model pendeteksi transaksi penipuan kartu kredit dengan menggunakan \textit{learning algorithm} xgboost. Hasil penelitian ini menunjukan bahwa xgboost menghasilkan performa model yang baik. \cite{purwar2023credit}
 \end{enumerate}
 
-\begin{longtable}{| b{0.05\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.15\textwidth}|p{0.25\textwidth}|} % Longtable berguna agar tabel dapat terpotong di halaman baru
-	\caption{Literasi Penelitian Terdahulu}
-	\label{table:2.literasi}\\
-	\hline
-	\textbf{No.} & \textbf{Judul} & \textbf{Masalah} & \textbf{Metode} & \textbf{Hasil} \\
-	\hline
-	\endhead % Agar semua baris diatas ini diulang jika melewati halaman baru (repeat header row)
-	1. & \textit{Credit card fraud detection using artificial neural network}  & Penipuan dalam transaksi kartu kredit merupakan hal yang umum saat ini karena sebagian besar dari kita lebih sering menggunakan metode pembayaran kartu kredit. Hal ini disebabkan kemajuan teknologi dan peningkatan transaksi online mengakibatkan penipuan yang menyebabkan kerugian finansial yang sangat besar. & support vector machine (SVM),  k-nearest neighbor (KNN), Artificial neural network (ANN) & SVM accuracy= 0.9349 precision= 0.9743 recall= 0.8976, KNN accuracy= 0.9982 precision= 0.7142 recall= 0.0393, dan ANN accuracy= 0.9992 precision= 0.8115 recall= 0.7619\\ 
-	\hline
-	2. & \textit{Hyperparameter optimization using genetic algorithms to detect frauds transactions} & sekarang servis online berkembang menjadi sangat besar dan maka dengan itu juga penipuan dalam servis online juga menjadi lebih besar, termasuk penipuan traksasi kartu kredit. & SMOTE, grid search (GS) methods, random forest (RF),
-    AdaBoost (AB), logistic regression (LR), decision tree (DT), and support vector machine (SVM) classifier. & SVM: Precision=95\%, Recall=95\%, F1-score=95\%, Accuracy=94\%, Time=19.039
+\begin{longtable}{| >{\centering\arraybackslash}p{0.05\textwidth} |
+                     >{\centering\arraybackslash}p{0.2\textwidth} |
+                     >{\centering\arraybackslash}p{0.2\textwidth} |
+                     >{\centering\arraybackslash}p{0.15\textwidth} |
+                     >{\centering\arraybackslash}p{0.25\textwidth} |}
+    \caption{Literasi Penelitian Terdahulu} % Caption only shown in the first table instance
+    \label{table:2.literasi} \\
+    \hline
+    \textbf{No.} & \textbf{Judul} & \textbf{Masalah} & \textbf{Metode} & \textbf{Hasil} \\
+    \hline
+    \endfirsthead
+    \hline
+    \textbf{No.} & \textbf{Judul} & \textbf{Masalah} & \textbf{Metode} & \textbf{Hasil} \\
+    \hline
+    \endhead
+    % Add your table content here
+    1. & \textit{Credit card fraud detection using artificial neural network} & Penipuan dalam transaksi kartu kredit merupakan hal yang umum saat ini karena sebagian besar dari kita lebih sering menggunakan metode pembayaran kartu kredit. Hal ini disebabkan kemajuan teknologi dan peningkatan transaksi online mengakibatkan penipuan yang menyebabkan kerugian finansial yang sangat besar. & support vector machine (SVM), k-nearest neighbor (KNN), Artificial neural network (ANN) & SVM accuracy= 0.9349 precision= 0.9743 recall= 0.8976, KNN accuracy= 0.9982 precision= 0.7142 recall= 0.0393, dan ANN accuracy= 0.9992 precision= 0.8115 recall= 0.7619\\
+    \hline
+    2. & \textit{Hyperparameter optimization using genetic algorithms to detect frauds transactions} & sekarang servis online berkembang menjadi sangat besar dan maka dengan itu juga penipuan dalam servis online juga menjadi lebih besar, termasuk penipuan traksasi kartu kredit. & SMOTE, grid search (GS) methods, random forest (RF), AdaBoost (AB), logistic regression (LR), decision tree (DT), and support vector machine (SVM) classifier. & SVM: Precision=95\%, Recall=95\%, F1-score=95\%, Accuracy=94\%, Time=19.039
     LR: Precision=97\%, Recall=91\%, F1-score=94\%, Accuracy=94\%, Time=104.016
     AB: Precision=98\%, Recall=93\%, F1-score=95\%, Accuracy=95\%, Time=235.037
     RF: Precision=96\%, Recall=92\%, F1-score=94\%, Accuracy=94\%, Time=130.300
-    DT: Precision=94\%, Recall=91\%, F1-score=93\%, Accuracy=92\%, Time=12.709\\ 
-	\hline
-	3. & Analisis sistem pendeteksi penipuan transaksi kartu kredit dengan algoritma machine learning & Banyaknya volume transaksi dan cepatnya proses transaksi yang berlangsung, membuat tidak mungkin untuk diawasi secara manual oleh manusia karena itu penpuan transaksi menjadi masalah dan harus diselesaikan dengan machine & analisis komparasi model + imbalance, model + SMOTE, model + param + imbalance, model + param + SMOTE, dengan model decision tree (DT), random forest (RF), logistic regression (LR), dan support vector machine (SVM) & algoritma random forest (RF) memiliki performa paling baik di antara semua model,
-    disusul oleh model dengan algoritma decision tree (DT), hal ini pula yang membuktikan
-    bahwa ensemble learning adalah teknik terbaik untuk fraud detection.\\ 
-	\hline
-    4. & \textit{Credit card fraud detection using support vector machine} & Penipuan kartu kredit tidak diragukan lagi merupakan ekspresi penipuan kriminal. Identifikasi penipuan tampaknya menjadi masalah rumit yang memerlukan banyak keterampilan hingga memasukkan algoritma terkait pembelajaran mesin ke dalamnya. & SVM &  Hasil simulasi menunjukan bahwa SVM lebih baik dibandingkan \textit{state of art approaches}. \\
+    DT: Precision=94\%, Recall=91\%, F1-score=93\%, Accuracy=92\%, Time=12.709\\
     \hline
-    5. & \textit{Credit card fraud detection using machine learning} & Deteksi penipuan kartu kredit saat ini paling banyak dilakukan
-    karena permasalahannya yang sering terjadi di dunia saat ini. hal ini disebabkan
-    peningkatan transaksi online dan platform e-commerce & Adaboost dan Random Forest & Random Forest precision= 0.97\% recall= 89\% f1-score= 0.93 AUC=94\%, Adaboost precision= 89\% recall= 81,5\% f1-score= 84,5\% AUC=96\%.\\
+    3. & Analisis sistem pendeteksi penipuan transaksi kartu kredit dengan algoritma machine learning & Banyaknya volume transaksi dan cepatnya proses transaksi yang berlangsung, membuat tidak mungkin untuk diawasi secara manual oleh manusia karena itu penpuan transaksi menjadi masalah dan harus diselesaikan dengan machine & analisis komparasi model + imbalance, model + SMOTE, model + param + imbalance, model + param + SMOTE, dengan model decision tree (DT), random forest (RF), logistic regression (LR), dan support vector machine (SVM) & algoritma random forest (RF) memiliki performa paling baik di antara semua model, disusul oleh model dengan algoritma decision tree (DT), hal ini pula yang membuktikan bahwa ensemble learning adalah teknik terbaik untuk fraud detection.\\
     \hline
-    6. & \textit{Enhancing credit card fraud detection: an ensemble machine learning approach} & Di era kemajuan digital, meningkatnya penipuan kartu kredit mengharuskan adanya pengembangan sistem deteksi penipuan yang kuat dan efisien. & Membandingkan ensemble learning dan traditional machine learning Support Vector Machine
-    (SVM), K-Nearest Neighbor (KNN), Random Forest (RF), Bagging, and Boosting classifiers.) & Metode ensamble mengungguli model individual, menunjukkan efektivitas penggabungan beberapa model. \\
+    4. & \textit{Credit card fraud detection using support vector machine} & Penipuan kartu kredit tidak diragukan lagi merupakan ekspresi penipuan kriminal. Identifikasi penipuan tampaknya menjadi masalah rumit yang memerlukan banyak keterampilan hingga memasukkan algoritma terkait pembelajaran mesin ke dalamnya. & SVM & Hasil simulasi menunjukan bahwa SVM lebih baik dibandingkan \textit{state of art approaches}. \\
     \hline
-    7. & \textit{Credit card fraud detection using XGBoost for imbalanced data set} & peningkatan tingkat penipuan di seluruh dunia, berbagai algoritma pembelajaran mesin digunakan oleh analis dan peneliti untuk mendeteksi dan menganalisis penipuan dalam transaksi online. Namun, kumpulan data pelatihan mungkin memiliki beberapa instance dari satu atau lebih instance dari kelas lain dalam kasus klasifikasi biner kelas tertentu yang membuat hasilnya menjadi bias. & XGBOOST & F1 score, recall and accuracy as 82.78\%, 78.9\% and 99.3\% \\
+    5. & \textit{Credit card fraud detection using machine learning} & Deteksi penipuan kartu kredit saat ini paling banyak dilakukan karena permasalahannya yang sering terjadi di dunia saat ini. hal ini disebabkan peningkatan transaksi online dan platform e-commerce & Adaboost dan Random Forest & Random Forest precision= 0.97\% recall= 89\% f1-score= 0.93 AUC=94\%, Adaboost precision= 89\% recall= 81,5\% f1-score= 84,5\% AUC=96\%.\\
+    \hline
+    6. & \textit{Enhancing credit card fraud detection: an ensemble machine learning approach} & Di era kemajuan digital, meningkatnya penipuan kartu kredit mengharuskan adanya pengembangan sistem deteksi penipuan yang kuat dan efisien. & /textit{Compare} ensemble learning dan traditional machine learning Support Vector Machine (SVM), K-Nearest Neighbor (KNN), Random Forest (RF), Bagging, and Boosting classifiers. & Metode ensamble mengungguli model individual, menunjukkan efektivitas penggabungan beberapa model. \\
+    \hline
+    7. & \textit{Credit card fraud detection using XGBoost for imbalanced data set} & Peningkatan tingkat penipuan di seluruh dunia, berbagai algoritma pembelajaran mesin digunakan oleh analis dan peneliti untuk mendeteksi dan menganalisis penipuan dalam transaksi online. Namun, kumpulan data pelatihan mungkin memiliki beberapa instance dari satu atau lebih instance dari kelas lain dalam kasus klasifikasi biner kelas tertentu yang membuat hasilnya menjadi bias. & XGBOOST & F1 score, recall and accuracy as 82.78\%, 78.9\% and 99.3\% \\
     \hline
 \end{longtable}
 
 \section{Dasar Teori} \label{II.Teori}
 \subsection{Machine Learning} \label{II.Dasar Teori}
-\textit{Machine learning} merupakan sebuah algoritma yang dapat membuat komputer belajar tanpa diprogram secara langsung\cite{alpaydin2021machine}. Kemampuan untuk belajar dan menentukan pilihan berdasarkan hasil pembelajaran, membuat \textit{Machine Learning} sering disebut sebagai AI atau \textit{Artificial Intelligence}. Namun, kenyataannya itu merupakan sub divisi dari AI dan pada tahun 1970an baru menjadi bagian dari evolusi AI dikarenakan sebelum tahun tersebut peneliti lebih berfokus kepada pendekatan \textit{logical} dan \textit{knowledge-based} dibandingkan algoritma dan juga lambatnya komputer dimasa lalu berdampak dalam performa \textit{machine learning} yang membuat banyak peneliti tidak berfokus meneliti hal tersebut\cite{fradkov2020early}. \textit{Machine Learning} menjadi salah satu algoritma yang sangat penting dalam membantu perkembangan industri dikarenakan kemampuan automasinya yang bisa terus berkembang\cite{jordan2015machine}. \textit{Machine learning} terus membesar dan bisa digunakan di dalam sebuah \textit{e-commerce}, \textit{social media}, medis, bank dan lain-lain\cite{jordan2015machine}.\\
+\textit{Machine learning} merupakan sebuah algoritma yang dapat membuat komputer belajar tanpa diprogram secara langsung\cite{alpaydin2021machine}. Kemampuan untuk belajar dan menentukan pilihan berdasarkan hasil pembelajaran, membuat \textit{Machine Learning} sering disebut sebagai AI atau \textit{Artificial Intelligence}. Namun, kenyataannya itu merupakan sub divisi dari AI dan pada tahun 1970an baru menjadi bagian dari evolusi AI dikarenakan sebelum tahun tersebut peneliti lebih berfokus kepada pendekatan \textit{logical} dan \textit{knowledge-based} dibandingkan algoritma dan juga lambatnya komputer dimasa lalu berdampak dalam performa \textit{machine learning} yang membuat banyak peneliti tidak berfokus meneliti hal tersebut\cite{fradkov2020early}. \textit{Machine Learning} menjadi salah satu algoritma yang sangat penting dalam membantu perkembangan industri dikarenakan kemampuan automasinya yang bisa terus berkembang\cite{jordan2015machine}. \textit{Machine learning} terus membesar dan bisa digunakan di dalam sebuah \textit{e-commerce}, \textit{social media}, medis, bank dan lain-lain\cite{jordan2015machine}.
+
 Algoritma \textit{machine learning} dibuat dengan model matematika yang dijalankan di sebuah komputer yang diberikan inputan data atau biasa disebut \textit{training data} untuk membuat sebuah keputusan tanpa secara khusus diprogram langsung oleh \textit{programmer} untuk membuat keputusan\cite{alpaydin2021machine}.
 
 \subsection{Supervised Learning} \label{II.Supervised Learning}
@@ -63,8 +67,9 @@ Algoritma \textit{machine learning} dibuat dengan model matematika yang dijalank
 
 
 \subsection{\textit{Gradient Descent}} \label{II.Gradient Descent}
-\textit{Gradient descent} merupakan sebuah \textit{optimization algorithm} yang umum digunakan untuk melatih model \textit{machine learning} dan \textit{neural networks}\cite{hochreiter2001learning}. \textit{Gradient descent} melatih \textit{machine learning} models dengan minimalisasi errors antara hasil prediksi dan nilai asli dengan mengganti parameter w dan b\cite{hochreiter2001learning}.\\
-\textit{Cost function} merupakan cara untuk mengetahui performa dari sebuah model, dengan cara mengurang \textit{output} hasil prediksi dengan hasil sebenarnya untuk mendapatkan nilai akurasi, semakin kecil keluaran nilai dari \textit{cost function} maka akurasi semakin baik\cite{alpaydin2021machine}. Contohnya dalam model \textit{linear regression} yang mempunyai rumus untuk modelnya dalam bentuk seperti ini  $y = wx + b$ yang mana $y = f_{w,b}(x)$ maka formula dari cost function menjadi seperti ini.\\
+\textit{Gradient descent} merupakan sebuah \textit{optimization algorithm} yang umum digunakan untuk melatih model \textit{machine learning} dan \textit{neural networks}\cite{hochreiter2001learning}. \textit{Gradient descent} melatih \textit{machine learning} models dengan minimalisasi errors antara hasil prediksi dan nilai asli dengan mengganti parameter w dan b\cite{hochreiter2001learning}.
+
+\textit{Cost function} merupakan cara untuk mengetahui performa dari sebuah model, dengan cara mengurang \textit{output} hasil prediksi dengan hasil sebenarnya untuk mendapatkan nilai akurasi, semakin kecil keluaran nilai dari \textit{cost function} maka akurasi semakin baik\cite{alpaydin2021machine}. Contohn dalam model \textit{linear regression} yang mempunyai rumus untuk modelnya dalam bentuk seperti ini  $y = wx + b$ yang mana $y = f_{w,b}(x)$ maka formula dari cost function menjadi seperti ini.\\
 \begin{equation}
     J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2
 \end{equation}
@@ -83,8 +88,10 @@ $i$ = nilai iterasi\\
 \end{center}
 
 \subsubsection{Perhitungan \textit{Cost Function}} \label{II.costfunction}
-Perhitungan \textit{cost function} untuk membuat sebuah model prediksi \textit{linear regression} dengan dataset sederhana dengan jumlah 2 data dengan fitur x dan y. Data pertama x = 1 dan y = 300 dan data kedua x = 2 dan y = 500.\\ 
-Perhitungan cost function digunakan untuk mengetahui gambaran performa dari sebuah model dengan inputan w dan b tertentu. Contoh inputkan w = 150, b = 100 dan nilai x yang di inputkan ke dalam sebuah model \textit{linear regression} $y = wx + b$ dan setelah itu hitung cost functionnya.\\
+Perhitungan \textit{cost function} untuk membuat sebuah model prediksi \textit{linear regression} dengan dataset sederhana dengan jumlah 2 data dengan fitur x dan y. Data pertama x = 1 dan y = 300 dan data kedua x = 2 dan y = 500.
+
+Perhitungan cost function digunakan untuk mengetahui gambaran performa dari sebuah model dengan inputan w dan b tertentu. Contoh inputkan w = 150, b = 100 dan nilai x yang di inputkan ke dalam sebuah model \textit{linear regression} $y = wx + b$ dan setelah itu hitung cost functionnya.
+
 Hasil dari \textit{cost function} w = 150 dan b = 100 adalah 3.125 yang tergambarkan dengan grafik \textit{scatter plot} untuk y dan x seperti pada gambar \ref{fig:2.scatterplotlinear}.
 \begin{figure}[H] % Kalau menggunakan H, posisi gambar akan tepat dibawah teks
     \centering
@@ -108,7 +115,8 @@ Grafik \textit{scatter plot} tersebut menunjukan bahwa hasil \textit{cost functi
     \caption{Gradient Descent}
     \label{fig:2.gradientdescent}
 \end{figure}
-Seperti yang terlihat pada gambar \ref{fig:2.gradientdescent}. pendaki akan mencoba untuk mencari cara untuk turun ke dasar dengan cara mengecek sekelilingnya dan setelah itu mencoba untuk melangkah satu kali dan setelah itu mengecek apakah langkah tersebut membuatnya turun atau tidak, jika turun maka pendaki akan mencoba untuk melangkah ke arah yang sama dan jika tidak maka pendaki mencoba langkah yang berbeda dan ada hal perlu diperhatikan pada gambar \ref{fig:2.gradientdescent} yang menunjukan bahwa local minimum bisa terdapat lebih dari 1\cite{ruder2016overview}.\\
+Seperti yang terlihat pada gambar \ref{fig:2.gradientdescent}. pendaki akan mencoba untuk mencari cara untuk turun ke dasar dengan cara mengecek sekelilingnya dan setelah itu mencoba untuk melangkah satu kali dan setelah itu mengecek apakah langkah tersebut membuatnya turun atau tidak, jika turun maka pendaki akan mencoba untuk melangkah ke arah yang sama dan jika tidak maka pendaki mencoba langkah yang berbeda dan ada hal perlu diperhatikan pada gambar \ref{fig:2.gradientdescent} yang menunjukan bahwa local minimum bisa terdapat lebih dari 1\cite{ruder2016overview}.
+
 Gradient descent memiliki formula seperti cost function untuk menjalankan sebuah algoritma nya untuk mengganti nilai w dan b agar bisa mencapai \textit{local minimum}.\\
 Formula gradient descent\cite{ruder2016overview}: \\
 \begin{equation}
@@ -157,7 +165,8 @@ Ada berbagai cara untuk menentukan nilai learning rate terbaik salah satu cara p
 
 
 \subsection{Kartu Kredit} \label{II.KartuKredit}
-Kartu kredit merupakan alat pembayaran nontunai yang memberikan fasilitas kredit kepada pemegang nya\cite{wooster1966credit}. Pemegang kartu kredit wajib membayar tagihan  akibat penggunaan kartu tersebut pada waktu yang  ditentukan dalam kontrak\cite{wooster1966credit}. Kewajiban pembayaran ini berlaku untuk seluruh transaksi yang dilakukan, termasuk pembelian barang dan jasa serta penarikan uang tunai\cite{flitcroft2009credit}. \\
+Kartu kredit merupakan alat pembayaran nontunai yang memberikan fasilitas kredit kepada pemegang nya\cite{wooster1966credit}. Pemegang kartu kredit wajib membayar tagihan  akibat penggunaan kartu tersebut pada waktu yang  ditentukan dalam kontrak\cite{wooster1966credit}. Kewajiban pembayaran ini berlaku untuk seluruh transaksi yang dilakukan, termasuk pembelian barang dan jasa serta penarikan uang tunai\cite{flitcroft2009credit}. 
+
 Ada dua jenis transaksi  kartu kredit: transaksi \textit{card-present}(CP) dan transaksi \textit{card-not-present}(CNP)\cite{kumar2016method}. Transaksi \textit{card-present} terjadi ketika kartu kredit secara fisik digunakan di lokasi transaksi, misalnya saat berbelanja di toko dan menggesek kartu di mesin EDC. Sebaliknya, transaksi \textit{card-not-present} tidak memerlukan kehadiran fisik kartu, seperti saat berbelanja online atau melakukan pembayaran melalui telepon dan dalam transaksi CNP, data kartu kredit dimasukkan secara manual atau otomatis ke dalam sistem pembayaran\cite{kumar2016method}. Berikut merupakan contoh bagian-bagian yang ada pada sebuah kartu kredit.
 \begin{enumerate}[noitemsep]
     \item \textit{Chip}  kartu kredit terletak di bagian depan kartu. \textit{Chip} ini ditambahkan pada berbagai aplikasi yang dapat mengenkripsi data agar dapat disimpan dengan lebih aman.
@@ -180,7 +189,8 @@ Ada dua jenis transaksi  kartu kredit: transaksi \textit{card-present}(CP) dan t
 \end{figure}
 
 \subsection{\textit{Imbalanced data}} \label{II.Imbalanced Data}
-\textit{Imbalanced data} merupakan sebuah kondisi di sebuah data di mana jumlah data antara kelas satu dan lainnya tidak seimbang yang artinya salah satu kelas memiliki jumlah yang lebih besar dibandingkan lainnya\cite{haixiang2017learning}. \textit{Imbalanced dataset} kemunculannya merupakan hal alami yang akan selalu muncul pada kejadian yang langka, namun kejadian langka tersebut bisa menyebabkan hal buruk apabila terjadi, salah satu contohnya ialah  pada data transaksi penipuan, data penyakit kanker\cite{krawczyk2016learning}. Kejadian langka tersebut dapat mengakibatkan kerugian besar apabila terjadi dan dibutuhkan sistem yang bisa memprediksi kejadian langka tersebut\cite{krawczyk2016learning}.\\
+\textit{Imbalanced data} merupakan sebuah kondisi di sebuah data di mana jumlah data antara kelas satu dan lainnya tidak seimbang yang artinya salah satu kelas memiliki jumlah yang lebih besar dibandingkan lainnya\cite{haixiang2017learning}. \textit{Imbalanced dataset} kemunculannya merupakan hal alami yang akan selalu muncul pada kejadian yang langka, namun kejadian langka tersebut bisa menyebabkan hal buruk apabila terjadi, salah satu contohnya ialah  pada data transaksi penipuan, data penyakit kanker\cite{krawczyk2016learning}. Kejadian langka tersebut dapat mengakibatkan kerugian besar apabila terjadi dan dibutuhkan sistem yang bisa memprediksi kejadian langka tersebut\cite{krawczyk2016learning}.
+
 \textit{Imbalanced dataset} merupakan masalah yang besar di sebuah\textit{ machine learning} dikarenakan dapat mengakitbatkan bias yang cenderung lebih ke kelas mayoritas. hal ini membuat model menjadi sulit untuk mendeteksi kelas dengan jumlah lebih sedikit atau minoritas\cite{haixiang2017learning}. Berikut ini merupakan visualisasi \textit{imbalanced data} yang dapat dilihat pada gambar \ref{fig:2.visualisasiimbalanced}.
 \begin{figure}[H] % Kalau menggunakan H, posisi gambar akan tepat dibawah teks
     \centering
@@ -245,7 +255,8 @@ Hasil dari visualiasi diatas menunjukan kalau feature creation dapat meningkatka
 Dari contoh diatas dapat dilihat bahwa rentang nilai dari fitur satu dan fitur dua menjadi lebih seimbang yang artinya membuat machine learning untuk belajar dengan hasil yang lebih baik
 
 \subsection{\textit{Oversampling}} \label{II.oversampling}
-\textit{Oversampling} adalah teknik yang digunakan dalam \textit{machine learning} dan analisis data untuk menangani masalah \textit{unbalanced} data dalam dataset\cite{liu2004effect}. \textit{Unbalanced data} muncul ketika terdapat satu kelas atau fitur yang memiliki jumlah data sampel yang jauh lebih banyak dibandingkan kelas atau fitur lainnya\cite{dal2015calibrating}. Contohnya, dalam \textit{dataset} untuk mendeteksi penipuan kartu kredit, total jumlah transaksi yang normal mungkin jauh lebih banyak daripada jumlah transaksi penipuan.\\
+\textit{Oversampling} adalah teknik yang digunakan dalam \textit{machine learning} dan analisis data untuk menangani masalah \textit{unbalanced} data dalam dataset\cite{liu2004effect}. \textit{Unbalanced data} muncul ketika terdapat satu kelas atau fitur yang memiliki jumlah data sampel yang jauh lebih banyak dibandingkan kelas atau fitur lainnya\cite{dal2015calibrating}. Contohnya, dalam \textit{dataset} untuk mendeteksi penipuan kartu kredit, total jumlah transaksi yang normal mungkin jauh lebih banyak daripada jumlah transaksi penipuan.
+
 Tujuan dari \textit{oversampling} ialah untuk membuat data menjadi \textit{balance} atau seimbang agar saat diinputkan ke \textit{machine learning}, model tidak menjadi bias terhadap kelas mayoritas. Salah satu contoh dari metode \textit{oversampling ialah} SMOTE\cite{chawla2002smote} dan ADASYN\cite{4633969}.   
 
 \subsection{SMOTE (Synthetic Minority Over-sampling Technique)} \label{III.smote}
@@ -343,8 +354,10 @@ $D$ = merupakan  jumlah total sampel dalam \textit{dataset}\\
     \item Saat pemilihan acak boleh memilih data yang sama yang artinya apabila saat memilih data secara acak itu terpilih data yang sama maka itu diperbolehkan.
     \item Ukuran dari \textit{boostrapped dataset} itu harus sama dengan original dataset.
 \end{enumerate}
-Setelah membuat \textit{boostrapped dataset} akan dilakukan pembuatan decision tree dengan menggunakan boostrapped dataset, dalam pembuatan decision tree kita perlu menentukan berapa \textit{max feature} yang kita pilih secara acak pada setiap \textit{split tree}.\\
-setelah pembuatan tree selesai dilakukan maka kita mengulang proses tersebut hingga ratusan kali atau sesuai yang kita yang tentukan dan keputusan akhir dibuat dengan menggabungkan hasil dari semua \textit{tree} sepeti pada gambar \ref{fig:2.randomforest}.\\
+Setelah membuat \textit{boostrapped dataset} akan dilakukan pembuatan decision tree dengan menggunakan boostrapped dataset, dalam pembuatan decision tree kita perlu menentukan berapa \textit{max feature} yang kita pilih secara acak pada setiap \textit{split tree}.
+
+setelah pembuatan tree selesai dilakukan maka kita mengulang proses tersebut hingga ratusan kali atau sesuai yang kita yang tentukan dan keputusan akhir dibuat dengan menggabungkan hasil dari semua \textit{tree} sepeti pada gambar \ref{fig:2.randomforest}.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figure/random_forest.png}
@@ -362,8 +375,8 @@ setelah pembuatan tree selesai dilakukan maka kita mengulang proses tersebut hin
 \end{enumerate}
 
 \subsection{XGBoost} \label{II.xgboost}
-Extreme Gradient Boosting atau XGBoost adalah salah satu ensemble learning bertipe boosting dan merupakan sebuah algoritma \textit{machine learning} yang dioptimalkan untuk implementasi metode \textit{gradient boosting}\cite{chen2015xgboost}. Algoritma ini dikenal karena kecepatannya, efisiensinya, dan kemampuannya menghasilkan model yang sangat akurat, sehingga sering digunakan dalam kompetisi pembelajaran mesin seperti yang diadakan di platform Kaggle.
-\textit{XGBoost} digunakan untuk menyelesaikan masalah klasifikasi dan regresi\cite{chen2016xgboost}.\\
+Extreme Gradient Boosting atau XGBoost adalah salah satu ensemble learning bertipe boosting dan merupakan sebuah algoritma \textit{machine learning} yang dioptimalkan untuk implementasi metode \textit{gradient boosting}\cite{chen2015xgboost}. Algoritma ini dikenal karena kecepatannya, efisiensinya, dan kemampuannya menghasilkan model yang sangat akurat, sehingga sering digunakan dalam kompetisi pembelajaran mesin seperti yang diadakan di platform Kaggle. \textit{XGBoost} digunakan untuk menyelesaikan masalah klasifikasi dan regresi\cite{chen2016xgboost}.
+
 \textit{XGBoost} memikiki banyak \textit{hyperparameter} yang digunakan untuk mengatur bagaimana xgboost bekerja. \textit{Hyperparameter} yang digunakan dalam \textit{xgboost} ialah sebagai berikut\cite{xgboost_parameter_documentation}:
 \begin{enumerate}[noitemsep]
     \item max\_depth digunakan untuk menentukan maksimum kedalaman \textit{tree}.
@@ -399,7 +412,8 @@ Barulah berdasarkan \textit{confusion matrix} kita dapat menghitung \textit{prec
 Precison = \frac{TP}{TP + FP} 
 \end{equation}
 \label{eq:2.precision}
-\myequations{Rumus Precision}\\
+\myequations{Rumus Precision}
+
 Kegunaan dari \textit{precision} itu sangat penting dalam kasus dimana false positive tinggi. Contohnya dalam pendeteksi penipuan kartu kredit, kita ingin mengurangi kemungkinan mendeteksi transaksi yang tidak penipuan namun dikategorikan sebagai transaksi penipuan.
    
 \subsubsection{Recall}
@@ -408,7 +422,8 @@ Kegunaan dari \textit{precision} itu sangat penting dalam kasus dimana false pos
 Precison = \frac{TP}{TP + FN} 
 \end{equation}
 \label{eq:2.recall}
-\myequations{Rumus Recall}\\
+\myequations{Rumus Recall}
+
 Kegunaan dari \textit{recall} ialah pada kasus dimana memerlukan deteksi penyakit kita ingin recall yang tinggi untuk menangkap semua kasus penyakit agar tidak ada pasien yang tidak terdiagnosis. Recall berfokus pada  memastikan bahwa semua kasus positif terdekteksi meskipun ada beberapa kesalahan \textit{false positive} sedangkan \textit{precision} berguna ketika penting untuk memastikan bahwa prediksi benar-benar akurat, sehingga mengurangi jumlah \textit{false positive}.
 
 
@@ -418,7 +433,8 @@ Kegunaan dari \textit{recall} ialah pada kasus dimana memerlukan deteksi penyaki
 F1-Score = 2 \times \frac{Precision \times Recall}{Precision + Recall}   
 \end{equation}
 \label{eq:2.f1score}
-\myequations{Rumus F1 Score}\\
+\myequations{Rumus F1 Score}
+
 Kegunaan dari \textit{f1-score} ialah pada situasi dimana penting untuk menjaga keseimbangan antara \textit{precision} dan recall, untuk menghindari bias terhadap kelas mayoritas.    
 
 \subsubsection{Matthews correlation coefficient}
@@ -428,13 +444,15 @@ Kegunaan dari \textit{f1-score} ialah pada situasi dimana penting untuk menjaga 
 MCC = \frac{(TP \times TN) - (FP \times FN)}{\sqrt{(TP + FP)(TP + FN)(TN + FP)(TN + FN)}} 
 \end{equation}
 \label{eq:2.mcc}
-\myequations{Rumus Matthews correlation coefficient}\\
-Hasil dari nilai \textit{matthew’s Correlation Coefficient} diinterpretasikan sebagai
+\myequations{Rumus Matthews correlation coefficient}
+
+Hasil dari nilai \textit{matthew's Correlation Coefficient} diinterpretasikan sebagai berikut.
 \begin{enumerate}[noitemsep]
     \item +1: Model membuat prediksi sempurna (semua prediksi benar).
     \item 0: Model tidak bisa melakukan prediksi dan sama seperti tebakan acak.
     \item 1: Model membuat prediksi yang salah secara total.
 \end{enumerate}
+
 Pada penelitian ini juga peneliti akan menggunakan mcc sebagai metrik utama untuk menentukan gambaran performa model dan peneliti tidak akan menggunakan roc auc disebabkan semakin tinggi hasil dari mcc(contoh: MCC = 0.9) maka semakin tinggi pula nilai roc auc namun tidak sebaliknya\cite{chicco2023matthews}.
 
 

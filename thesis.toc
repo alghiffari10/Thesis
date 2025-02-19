@@ -6,22 +6,22 @@
 \contentsline {chapter}{Ringkasan}{vi}{section*.6}%
 \contentsline {chapter}{Abstrak}{vii}{section*.7}%
 \contentsline {chapter}{Abstract}{viii}{section*.8}%
-\contentsline {chapter}{Daftar Isi}{ix}{section*.9}%
-\contentsline {chapter}{Daftar Tabel}{xii}{section*.10}%
-\contentsline {chapter}{Daftar Gambar}{xiii}{section*.11}%
-\contentsline {chapter}{Daftar Persamaan}{xv}{section*.12}%
+\contentsline {chapter}{Daftar Isi}{ix}{section*.8}%
+\contentsline {chapter}{Daftar Tabel}{xii}{section*.9}%
+\contentsline {chapter}{Daftar Gambar}{xiii}{section*.10}%
+\contentsline {chapter}{Daftar Persamaan}{xv}{section*.11}%
 \contentsline {chapter}{\numberline {I}Pendahuluan}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan masalah}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Tujuan}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Batasan Masalah}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Manfaat Penelitian}{4}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{4}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Bab I}{5}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Bab II}{5}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Bab III}{5}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}Bab IV}{5}{subsection.1.6.4}%
-\contentsline {subsection}{\numberline {1.6.5}Bab V}{5}{subsection.1.6.5}%
+\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{5}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Bab I Pendahuluan}{5}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Bab II Tinjauan Pustaka}{5}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Bab III Analisis Dan Perancangan}{5}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}Bab IV Hasil Dan Pembahasan}{5}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}Bab V Kesimpulan Dan Saran}{5}{subsection.1.6.5}%
 \contentsline {chapter}{\numberline {II}Tinjauan Pustaka}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Tinjauan Pustaka}{6}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Dasar Teori}{15}{section.2.2}%
@@ -30,8 +30,8 @@
 \contentsline {subsection}{\numberline {2.2.3}\textit {Gradient Descent}}{16}{subsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.3.1}Perhitungan \textit {Cost Function}}{17}{subsubsection.2.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.2.3.2}Cara Kerja \textit {Gradient Descent}}{18}{subsubsection.2.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.2.3.3}Learning Rate}{19}{subsubsection.2.2.3.3}%
-\contentsline {subsection}{\numberline {2.2.4}Kartu Kredit}{20}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Learning Rate}{20}{subsubsection.2.2.3.3}%
+\contentsline {subsection}{\numberline {2.2.4}Kartu Kredit}{21}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}\textit {Imbalanced data}}{22}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}\textit {Hyperparameter}}{23}{subsection.2.2.6}%
 \contentsline {subsection}{\numberline {2.2.7}Feature Engineering}{24}{subsection.2.2.7}%
@@ -63,6 +63,6 @@
 \contentsline {section}{\numberline {3.3}Alat dan Bahan Tugas Akhir}{46}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Alat}{46}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Bahan}{47}{subsection.3.3.2}%
-\contentsline {chapter}{Daftar Pustaka}{48}{section*.41}%
-\contentsline {chapter}{Lampiran}{54}{chapter*.42}%
+\contentsline {chapter}{Daftar Pustaka}{48}{section*.40}%
+\contentsline {chapter}{Lampiran}{54}{chapter*.41}%
 \contentsline {section}{\numberline {A}Dataset}{54}{section.Alph0.1}%

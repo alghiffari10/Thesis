@@ -115,15 +115,23 @@
 
 % Setting penomoran caption persamaan
 \usepackage{tocloft}
-\newcommand{\listequationsname}{DAFTAR PERSAMAAN}
-\newlistof{myequations}{equ}{\listequationsname}
-\newcommand{\myequations}[1]{
-	\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}
+% ---------------------------
+% Custom List of Equations
+% ---------------------------
+\newcommand{\listequationsname}{\LARGE Daftar Persamaan}
+\newlistof{myequations}{loe}{\listequationsname}
+
+\renewcommand{\cftloetitlefont}{\hfill\Huge\bfseries}
+\renewcommand{\cftafterloetitle}{\hfill}
+\setlength{\cftafterloetitleskip}{10pt}
+	
+\newcommand{\myequations}[1]{%
+  \addcontentsline{loe}{myequations}{\protect\numberline{\theequation}#1}%
 }
+
 \setlength{\cftmyequationsnumwidth}{2.3em}
 \setlength{\cftmyequationsindent}{1.5em}
 \renewcommand\theequation{\arabic{section}.\arabic{equation}}
-
 % Mengkapitalkan judul Daftar Isi, Gambar, & Tabel
 \addto\captionsbahasa{%
 	\renewcommand{\contentsname}{DAFTAR ISI}%
