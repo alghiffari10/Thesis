@@ -2,7 +2,6 @@
 \newcommand{\kreditgede}{Your Value}
 
 \chapter{Pendahuluan} \label{Bab I}
-% TODO  DONE Revisi Later Belakang
 \section{Latar Belakang} \label{I.Latar Belakang}
 Kartu kredit merupakan alat pembayaran yang menggantikan uang tunai dalam transaksi. Dengan kartu kredit, tidak perlu membawa uang tunai, sehingga memberikan kemudahan dan mendorongpeningkatan penggunaannya\cite{setiawan2022perlindungan}. Namun, di balik segala kemudahan dan keuntungan yang manjadikan ketergantungan dalam penggunaan kartu kredit, terdapat satu masalah dalam penggunaan kartu kredit yaitu penipuan dalam transaksi kartu kredit\cite{hendarsyah2020analisis}. Berdasarkan data dari Experian, 60\% pengguna kartu kredit pernah mengalami penipuan kartu kredit yang mana memberikan kerugian yang besar bagi pengguna kartu kredit dan juga agensi kartu kredit\cite{experian_2024} dan bahkan menurut analisis \textit{Merchant Cost Consulting} kerugian dari transaksi penipuan kartu kredit akan terus bertambah dan bisa mencapai 43 miliar dolar pada tahun 2026\cite{merchantcostconsulting_2024}.
 
@@ -19,7 +18,7 @@ Hasil riset-riset sebelumnya menunjukan bahwa algoritma \textit{esemble learning
 Beberapa riset sebelumnya berfokus pada metode komparasi model machine learning guna menentukan model machine learning terbaik dalam membuat model pendeteksi penipuan kartu kredit\cite{mniai2023novel}. Namun, ada hal krusial yang jarang dijadikan fokus dalam penelitian yaitu process metode oversampling untuk mengatasi umbalance data, penggunaan metode oversampling yang berbeda-beda akan menghasilkan hasil performa yang berbeda-beda\cite{liu2004effect}. Metode oversampling yang digunakan dalam penelitian ini ialah \textit{synthetic minority over-sampling technique}(SMOTE)\cite{chawla2002smote} dan \textit{adaptive synthetic sampling}(ADASYN)\cite{4633969} dikarenakan metode tersebut memberikan hasil yang selalu berbeda dan tidak saling mengungguli satu sama lain dan menghasilkan hasil yang baik dikasus yang berbeda-beda sesuai dengan pola dataset dan tujuan pembuatan model\cite{brandt2021comparative}.
 
 Fokus utama dari riset penulis ialah melakukan \textit{comparative analysis} metode oversampling \textit{synthetic minority over-sampling}(SMOTE) dan \textit{adaptive synthetic sampling}(ADASYN) dengan menggunakan algoritma esemble learning seperti random forest dan xgboost dalam membuat model pendeteksi penipuan kartu kredit dengan menggunakan metode evaluasi \textit{precision}, \textit{recall}, \textit{f1-score}, dan \textit{Matthews’s correlation coefficient} (MCC) \textit{metrics}. Dataset yang digunakan ialah dataset \textit{credit card fraud detection} yang dibuat dan dikumpulkan oleh grup machine learning dari \textit{Université Libre de Bruxelles}(ULB)\cite{dal2015calibrating}. Dataset ini berisi berisi 284807 transaksi kartu kredit yang dilakukan oleh pemegang kartu di  eropa  selama  dua  hari  dengan bobot  transaksi  normal  sebanyak  99,83\%  dan  fraud  sebanyak  0,17\% yang artinya dataset yang digunakan \textit{highly unbalanced}\cite{WinNT}. Riset kali ini akan memperluas penanganan \textit{unbalance data} penipuan kartu kredit untuk menentukan metode oversampling terbaik antara SMOTE dan ADASYN.
-% TODO DONE Revisi Rumusan Masalah dan Tujuan
+
 \section{Rumusan masalah} \label{I.Rumusan Masalah}
 Berdasarkan latar belakang yang ada, rumusan masalah dalam penelitian ini sebagai berikut:
 
@@ -51,7 +50,6 @@ Adapun manfaat dari penelitian ini adalah sebagai berikut:
     \item Mengetahui metode oversampling terbaik diantara SMOTE dan ADASYN didalam sebuah algoritma Random Forest dan XGBoost untuk membuat model pendeteksi penipuan kartu kredit.
 \end{enumerate}
 
-% TODO DONE Revisi Sistematika Penulisan
 \section{Sistematika Penulisan} \label{I.Sistematika}
 Adapun sistematika penulisan dalam penelitian adalah sebagai berikut:
 \subsection{Bab I Pendahuluan}
