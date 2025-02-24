@@ -62,9 +62,13 @@ Pada fitur \textit{amount} peneliti akan melakukan observasi distribusi pada tra
 
 \subsection{Persiapan Data}
 Proses memuat persiapan data sebelum diinputkan ke dalam \textit{machine learning}. Setelah peneliti melakukan analisis dan eksplorasi data, ada beberapa hal yang perlu dilakukan dalam persiapan data, yang pertama ialah mengecek apakah ada \textit{missing value} didalam dataset, dengan cara mengecek persentase dari setiap feature yang ada pada dataset dengan menggunakan formula berikut:\\
+
 \begin{equation}
-\text{Null\_Percentage}_i = \left( \frac{\sum_{j=1}^{n} \mathbf{1} \{ x_{ij} = \text{null} \}}{n} \right) \times 100
-\end{equation}\\
+       \text{Null\_Percentage}_i = \left( \frac{\sum_{j=1}^{n} \mathbf{1} \{ x_{ij} = \text{null} \}}{n} \right) \times 100
+\label{eq:3.missingvalue}
+\end{equation}
+\myequations{Rumus \textit{missing value}}
+
 Setelah itu peneliti akan melakukan\textit{split} data train dan test dengan metode pengambilan datanya dengan menggunakan \textit{stratified sampling} dengan format 80:20, 80\% data training dan 20\% data test dengan menggunakan modul sklearn model selection dengan melakukan import train\_test\_split. Setelah itu Penelti akan melakukan feature scaling pada feature amount dikarenakan feature amount ukuran nya masih sangat berbeda dibandingkan dengan feature lainya yang sudah dilakukan PCA transformation. Untuk itu, penelti akan melakukan feature scaling dengan menggunakan \textit{Robust Scaling}
 dari sklearn. Hasil dari feature scaling pada data training dapat dilihat perubahaannya dari table 3.2 menjadi 3.3.\\
 \begin{longtable}{| m{0.6cm} | m{2cm}|}
@@ -155,7 +159,193 @@ Pengujian dilakukan dengan melihat berdasarkan nilai dari  \textit{precision}, \
 \subsection{Analisis dan Pembahasan}
 Pada tahap in, dilakukan analisis lebih lanjut beserta pembahasan secara detail terhadap pengujian yang telah dilakukan. Setelah melakukan analisis akan dilakukan proses pembahasan dalam bentuk penulisan laporan.
 
-\section{Alat dan Bahan Tugas Akhir}
+
+\subsection{Perhitungan SMOTE}
+Perhitungan SMOTE dimulai dengan mengetahui data minoritas, sebagai contoh kita memiliki 3 data minortas yaitu:
+\begin{enumerate}
+	\item Sample A: (2, 3)
+	\item Sample B: (4, 7)
+	\item Sample C: (3, 4)
+\end{enumerate}
+Setelah mengetahui data minoritas kita akan mencari \textit{iniitial sample} yang didapatkan dengan melakukan pemilihan acak. Setelah itu, kita akan mencari tetangga terdekat dari \textit{initial sample} ke sampel lainnya dengan menggunakan \textit{Euclidean distance}. Untuk mendapatkan nilai \textit{Euclidean distance} itu dengan menggunakan teorema pythagoras dengan rumus:\\
+ \begin{equation}
+	 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\end{equation}
+\label{eq:3.teorema pythagoras}
+\\
+\myequations{Rumus Teorema Pythagoras}
+Kita dapatkan secara acak \textit{intial sample} yaitu sampel A dan selanjutnya kita akan menghitung \textit{Euclidean distance}.
+\begin{enumerate}
+	\item  Jarak A ke B.\\
+		$$
+			d_{AB} = \sqrt{(4-2)^2 + (7-3)^2} = \sqrt{2^2 + 4^2} = \sqrt{4 + 16} = \sqrt{20} \approx 4.47
+		$$
+
+	\item Jarak A ke C.\\
+		$$
+			d_{AC} = \sqrt{(3-2)^2 + (4-3)^2} = \sqrt{1^2 + 1^2} = \sqrt{1 + 1} = \sqrt{2} \approx 1.41
+		$$
+\end{enumerate}
+Karena $d_{AC} < d_{AB}$, sampel C merupakan tetangga terdekat dari sampel A. Setelah mengetahui tetangga terdekat, selanjutnya, kita akan membuat data sintetis dengan menggunakan rumus 2.\ref{eq:2.smote}.
+\begin{itemize}
+	\item Sampel A: (2,3).
+	\item Sample C (tetangga terdekat): (3,4).
+	\item $\lambda: 0.5$ (dipilih secara acak)
+\end{itemize}
+Menghitung perbedaan sampel A dan sampel C:
+\\
+\begin{align*}
+    x_{synthetic} &= \text{Sampel A} + \lambda \cdot (\text{Sampel C} - \text{Sampel A})   \\
+    x_{synthetic} &= \text{Sampel A} + \lambda \cdot ((3-2), (4-3)) \\
+    x_{synthetic} &= \text{Sampel A} + \lambda \cdot (1,1) 
+\end{align*}
+\\
+Mengkalikan dengan lamdha:
+\\
+\begin{align*}
+    x_{synthetic} &= \text{Sampel A} + 0.5 \cdot (1,1) \\ 
+    x_{synthetic} &= \text{Sampel A} + (0.5,0.5) 
+\end{align*}
+\\
+Menghasilkan data sintetis:
+\\
+\begin{align*}
+    x_{synthetic} &= (2,3) + (0.5,0.5) \\
+    x_{synthetic} &= (2.5, 3.5) 
+\end{align*}
+\\
+data sintetis yang telah berhasil dibuat adalah (2.5, 3.5).
+ 
+\subsection{Perhitungan ADASYN}
+Perhitungan ADASYN dimulai dengan mengetahui data mayoritas dan data minoritas. Kita asumsikan kita memliki dataset seperti berikut:
+\begin{itemize}
+	\item Sampel Minoritas.
+		\begin{enumerate}
+			\item Sampel A: (2,3).
+			\item Sampel B: (3,7).
+		\end{enumerate}
+	\item Sampel Majoritas.
+		\begin{enumerate}
+			\item Sampel M1: (2.5, 3.2).
+			\item Sampel M2: (2.7, 3.1).
+			\item Sample M3: (6,9).
+		\end{enumerate}
+\end{itemize}
+Dan kita akan menginisiasi nilai k(\textit{number of nearest neighbors} = 3 dan total data sintetis yang ingin kita buat adalah 9 $(G = 9)$. Setelah itu kita akan mencari tetangga terdekat dari setiap data minoritas dengan rumus 3.\ref{eq:3.teorema pythagoras}.
+Untuk data minortas pada sampel A(2, 3):
+\begin{enumerate}
+	\item  Jarak A ke M1.\\
+		$$
+			d_{AM1} = \sqrt{(2.5-2)^2 + (3.2-3)^2} = \sqrt{0.5^2 + 0.2^2} = \sqrt{0.25 + 0.04} = \sqrt{0.29} \approx 0.54
+		$$
+
+	\item Jarak A ke M2.\\
+		$$
+			d_{AM2} = \sqrt{(2.7-2)^2 + (3.1-3)^2} = \sqrt{0.7^2 + 0.1^2} = \sqrt{0.49 + 0.01} = \sqrt{0.50} \approx 0.71 
+		$$
+
+	\item Jarak A ke M3.\\
+		$$
+			d_{AM3} = \sqrt{(6-2)^2 + (9-3)^2} = \sqrt{4^2 + 6^2} = \sqrt{16 + 36} = \sqrt{52} \approx 7.21 
+		$$
+		
+	\item Jarak A ke B.\\
+		$$
+			d_{AB} = \sqrt{(4-2)^2 + (7-3)^2} = \sqrt{2^2 + 4^2} = \sqrt{4 + 16} = \sqrt{20} \approx 4.47 
+		$$
+\end{enumerate}
+Pada sampel A 3 tetangga terdekat A$(k = 3)$ ialah M1,M2, dan B. yang berarti ratio dari sampel A adalah:
+
+$$
+r_A = \frac{Majority}{k} = \frac{2}{3} \approx 0.67
+$$
+\\
+Untuk data minoritas pada sampel B(4, 7):
+\begin{enumerate}
+	\item  Jarak B ke M1.\\
+		$$
+			d_{BM1} = \sqrt{(4-2.5)^2 + (7-3.2)^2} = \sqrt{1.5^2 + 3.8^2} = \sqrt{2.25 + 14.44} = \sqrt{16.69} \approx 4.09
+		$$
+
+	\item Jarak B ke M2.\\
+		$$
+		d_{BM2} = \sqrt{(4-2.7)^2 + (7-3)^2} = \sqrt{1.3^2 + 3.9^2} = \sqrt{1.69 + 15.21} = \sqrt{16.9} \approx 4.11 
+		$$
+
+	\item Jarak B ke M3.\\
+		$$
+			d_{BM3} = \sqrt{(4-6)^2 + (7-9)^2} = \sqrt{(-2)^2 + (-2)^2} = \sqrt{4 + 4} = \sqrt{16} \approx 2.83 
+		$$
+		
+	\item Jarak A ke B.\\
+		$$
+			d_{BA}  \approx 4.47 
+		$$
+\end{enumerate}
+Pada sampel B 3 tetangga terdekat $(k = 3)$ ialah M3,M1, dan M2. yang berarti ratio dari sampel B adalah:
+
+$$
+r_B = \frac{Majority}{k} = \frac{3}{3} = 1 
+$$
+\\
+Menentukan alokasi data sintetis:\\
+$$
+R_total = r_a + r_b = 0.69 + 1 = 1.69
+$$
+\\
+Menghitung \textit{weight} pada setiap minority sampel:
+
+\begin{itemize}
+	\item \textit{weight} dari sampel A: \\ 
+		$$
+			w_A = \frac{r_a}{R_total} = \frac{0.67}{1.67} \approx 0.40
+		$$
+	\item \textit{weight} dari sampel B:\\
+		$$
+			w_B = \frac{r_b}{R_total} = \frac{1}{1.67} \approx 0.60
+		$$
+\end{itemize}
+
+Maka jumlah data sintetis pada masing data minoritas ialah:
+\begin{itemize}
+	\item Data sintetis pada sampel A:\\
+		$$
+			G_A = w_A \times G \approx 0.40 \times 9 \approx 3.6 
+		$$
+	\item Data sintetis pada sample B:\\
+		$$
+			G_B = w_B \times G \approx 0.60 \times 9 \approx 5.4 
+		$$
+\end{itemize}
+Jumlah dari masing-masing data sintetis ialah 4(dibulatkan) pada sampel A dan 5(dibulatkan) pada sampel B. Setelah mengalokasikan berapa data sintetis yang akan dibuat, dilanjutkan dengan membuat data sintetis pada setiap data minoritas dengan menggunakan rumus 2.\ref{eq:2.smote}. Kita asumsikan bahwa kita memilih secara acak data minoritas dan yang terpilih ialah sampel A dan tetangga terdekat yang terpilih ialah sampel B(karena sampel B merupakan satu-satunya data minoritas lainnya).\\
+Menghitung nilai pembeda dari sampel A dan B:\\
+\\
+\begin{align*}
+    x_{synthetic} &= \text{Sampel A} + \lambda \cdot (\text{Sampel B} - \text{Sampel A})   \\
+    x_{synthetic} &= \text{Sampel A} + \lambda \cdot ((4-2), (7-3)) \\
+    x_{synthetic} &= \text{Sampel A} + \lambda \cdot (2,4) 
+\end{align*}
+\\
+Mengkalikan dengan lamdha $(\lamdha = 0.5)$:
+\\
+\begin{align*}
+    x_{synthetic} &= \text{Sampel A} + 0.5 \cdot (2,4) \\ 
+    x_{synthetic} &= \text{Sampel A} + (1,2) 
+\end{align*}
+\\
+Menghasilkan data sintetis:
+\\
+\begin{align*}
+    x_{synthetic} &= (2,3) + (1,2) \\
+    x_{synthetic} &= (3, 5) 
+\end{align*}
+\\
+data sintetis yang telah berhasil dibuat adalah (3, 5).
+ 
+
+
+
+\subsection{Alat dan Bahan Tugas Akhir}
 Adapun alat dan bahan yang digunakan dalam penelitian ini adalah sebagai berikut:
 \subsection{Alat}
 Berikut adalah alat yang digunakan dalam penelitian ini:

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.3)  27 DEC 2024 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.3)  24 FEB 2025 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/han/Project Raihan/Judul Tugas Akhir/thesis.tex"
-(/home/han/Project Raihan/Judul Tugas Akhir/thesis.tex
+**thesis.tex
+(./thesis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -307,7 +307,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip63
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 34.
- (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -868,7 +869,8 @@ File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@bigbuffer@items=\count463
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen257
@@ -921,7 +923,8 @@ File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1006,7 +1009,8 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip110
 \f@nch@O@olf=\skip111
 \f@nch@O@orf=\skip112
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
@@ -1267,7 +1271,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 17.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 17.
-<resources/itera-logo.png, id=232, 114.9093pt x 139.722pt>
+<resources/itera-logo.png, id=272, 114.9093pt x 139.722pt>
 File: resources/itera-logo.png Graphic file (type png)
 <use resources/itera-logo.png>
 Package pdftex.def Info: resources/itera-logo.png  used on input line 24.
@@ -2941,7 +2945,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-<figure/image.png, id=599, 614.295pt x 220.825pt>
+<figure/image.png, id=658, 614.295pt x 220.825pt>
 File: figure/image.png Graphic file (type png)
 <use figure/image.png>
 Package pdftex.def Info: figure/image.png  used on input line 58.
@@ -2972,12 +2976,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./figure/image.png>]
-<figure/scatter plot linear regression.png, id=627, 480.79625pt x 455.7025pt>
+<figure/scatter plot linear regression.png, id=685, 480.79625pt x 455.7025pt>
 File: figure/scatter plot linear regression.png Graphic file (type png)
 <use figure/scatter plot linear regression.png>
 Package pdftex.def Info: figure/scatter plot linear regression.png  used on input line 91.
 (pdftex.def)             Requested size: 206.28249pt x 195.51714pt.
-<figure/Scatter plot cost function.png, id=629, 475.7775pt x 458.71375pt>
+<figure/Scatter plot cost function.png, id=687, 475.7775pt x 458.71375pt>
 File: figure/Scatter plot cost function.png Graphic file (type png)
 <use figure/Scatter plot cost function.png>
 Package pdftex.def Info: figure/Scatter plot cost function.png  used on input line 98.
@@ -2991,7 +2995,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./figure/scatter plot linear regression.png>]
-<figure/gradient descent.png, id=638, 423.38174pt x 220.4235pt>
+<figure/gradient descent.png, id=696, 423.38174pt x 220.4235pt>
 File: figure/gradient descent.png Graphic file (type png)
 <use figure/gradient descent.png>
 Package pdftex.def Info: figure/gradient descent.png  used on input line 107.
@@ -3018,12 +3022,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
-<figure/Learning rate kecil.png, id=654, 329.23pt x 220.825pt>
+<figure/Learning rate kecil.png, id=712, 329.23pt x 220.825pt>
 File: figure/Learning rate kecil.png Graphic file (type png)
 <use figure/Learning rate kecil.png>
 Package pdftex.def Info: figure/Learning rate kecil.png  used on input line 146.
 (pdftex.def)             Requested size: 206.28249pt x 138.36234pt.
-<figure/Learning rate besar.png, id=655, 329.23pt x 253.94875pt>
+<figure/Learning rate besar.png, id=713, 329.23pt x 253.94875pt>
 File: figure/Learning rate besar.png Graphic file (type png)
 <use figure/Learning rate besar.png>
 Package pdftex.def Info: figure/Learning rate besar.png  used on input line 152.
@@ -3044,7 +3048,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20 <./figure/Learning rate kecil.png> <./figure/Learning rate besar.png>]
-<figure/kartu.png, id=679, 604.2575pt x 561.09625pt>
+<figure/kartu.png, id=737, 604.2575pt x 561.09625pt>
 File: figure/kartu.png Graphic file (type png)
 <use figure/kartu.png>
 Package pdftex.def Info: figure/kartu.png  used on input line 177.
@@ -3058,7 +3062,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
-<figure/gambar imbalance data.png, id=702, 286.06876pt x 177.66376pt>
+<figure/gambar imbalance data.png, id=761, 286.06876pt x 177.66376pt>
 File: figure/gambar imbalance data.png Graphic file (type png)
 <use figure/gambar imbalance data.png>
 Package pdftex.def Info: figure/gambar imbalance data.png  used on input line 187.
@@ -3084,12 +3088,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23 <./figure/gambar imbalance data.png>]
-<figure/output feature creation only one feature.png, id=739, 633.0852pt x 395.3169pt>
+<figure/output feature creation only one feature.png, id=797, 633.0852pt x 395.3169pt>
 File: figure/output feature creation only one feature.png Graphic file (type png)
 <use figure/output feature creation only one feature.png>
 Package pdftex.def Info: figure/output feature creation only one feature.png  used on input line 218.
 (pdftex.def)             Requested size: 206.28249pt x 128.80823pt.
-<figure/output feature creation multiple feature.png, id=740, 633.0852pt x 395.3169pt>
+<figure/output feature creation multiple feature.png, id=798, 633.0852pt x 395.3169pt>
 File: figure/output feature creation multiple feature.png Graphic file (type png)
 <use figure/output feature creation multiple feature.png>
 Package pdftex.def Info: figure/output feature creation multiple feature.png  used on input line 225.
@@ -3103,12 +3107,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24 <./figure/output feature creation only one feature.png>]
-<figure/before feature scaling.png, id=753, 366.4089pt x 395.3169pt>
+<figure/before feature scaling.png, id=811, 366.4089pt x 395.3169pt>
 File: figure/before feature scaling.png Graphic file (type png)
 <use figure/before feature scaling.png>
 Package pdftex.def Info: figure/before feature scaling.png  used on input line 235.
 (pdftex.def)             Requested size: 206.28249pt x 222.55823pt.
-<figure/after feature scaling.png, id=754, 251.4996pt x 339.669pt>
+<figure/after feature scaling.png, id=812, 251.4996pt x 339.669pt>
 File: figure/after feature scaling.png Graphic file (type png)
 <use figure/after feature scaling.png>
 Package pdftex.def Info: figure/after feature scaling.png  used on input line 241.
@@ -3147,12 +3151,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
-<figure/visualisasi_data_sebelum_smote.png, id=786, 290.5254pt x 325.9377pt>
+<figure/visualisasi_data_sebelum_smote.png, id=844, 290.5254pt x 325.9377pt>
 File: figure/visualisasi_data_sebelum_smote.png Graphic file (type png)
 <use figure/visualisasi_data_sebelum_smote.png>
 Package pdftex.def Info: figure/visualisasi_data_sebelum_smote.png  used on input line 271.
 (pdftex.def)             Requested size: 206.28249pt x 231.4323pt.
-<figure/visualisasi_data_sesudah_smote.png, id=787, 198.7425pt x 314.3745pt>
+<figure/visualisasi_data_sesudah_smote.png, id=845, 198.7425pt x 314.3745pt>
 File: figure/visualisasi_data_sesudah_smote.png Graphic file (type png)
 <use figure/visualisasi_data_sesudah_smote.png>
 Package pdftex.def Info: figure/visualisasi_data_sesudah_smote.png  used on input line 278.
@@ -3178,12 +3182,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<figure/visualisasi_data_sebelum_adasyn.png, id=806, 290.5254pt x 324.4923pt>
+<figure/visualisasi_data_sebelum_adasyn.png, id=864, 290.5254pt x 324.4923pt>
 File: figure/visualisasi_data_sebelum_adasyn.png Graphic file (type png)
 <use figure/visualisasi_data_sebelum_adasyn.png>
 Package pdftex.def Info: figure/visualisasi_data_sebelum_adasyn.png  used on input line 297.
 (pdftex.def)             Requested size: 206.28249pt x 230.40599pt.
-<figure/visualisasi_data_sesudah_adasyn.png, id=807, 198.7425pt x 312.9291pt>
+<figure/visualisasi_data_sesudah_adasyn.png, id=865, 198.7425pt x 312.9291pt>
 File: figure/visualisasi_data_sesudah_adasyn.png Graphic file (type png)
 <use figure/visualisasi_data_sesudah_adasyn.png>
 Package pdftex.def Info: figure/visualisasi_data_sesudah_adasyn.png  used on input line 304.
@@ -3196,7 +3200,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30 <./figure/visualisasi_data_sebelum_adasyn.png>]
-<figure/decision tree.png, id=818, 602.25pt x 405.515pt>
+<figure/decision tree.png, id=877, 602.25pt x 405.515pt>
 File: figure/decision tree.png Graphic file (type png)
 <use figure/decision tree.png>
 Package pdftex.def Info: figure/decision tree.png  used on input line 313.
@@ -3236,7 +3240,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./figure/decision tree.png>]
-<figure/random_forest.png, id=837, 803.0pt x 401.5pt>
+<figure/random_forest.png, id=896, 803.0pt x 401.5pt>
 File: figure/random_forest.png Graphic file (type png)
 <use figure/random_forest.png>
 Package pdftex.def Info: figure/random_forest.png  used on input line 350.
@@ -3266,7 +3270,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-<figure/confusion_matrix.png, id=867, 357.335pt x 268.00125pt>
+<figure/confusion_matrix.png, id=925, 357.335pt x 268.00125pt>
 File: figure/confusion_matrix.png Graphic file (type png)
 <use figure/confusion_matrix.png>
 Package pdftex.def Info: figure/confusion_matrix.png  used on input line 383.
@@ -3325,12 +3329,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37]
 BAB III.
-<figure/alur_penelitian.png, id=900, 3123.67pt x 6347.715pt>
+<figure/alur_penelitian.png, id=958, 3123.67pt x 6347.715pt>
 File: figure/alur_penelitian.png Graphic file (type png)
 <use figure/alur_penelitian.png>
 Package pdftex.def Info: figure/alur_penelitian.png  used on input line 8.
 (pdftex.def)             Requested size: 206.28249pt x 419.10547pt.
-<figure/pembuatanmodel.png, id=902, 8436.51875pt x 4398.4325pt>
+<figure/pembuatanmodel.png, id=960, 8436.51875pt x 4398.4325pt>
 File: figure/pembuatanmodel.png Graphic file (type png)
 <use figure/pembuatanmodel.png>
 Package pdftex.def Info: figure/pembuatanmodel.png  used on input line 17.
@@ -3338,7 +3342,7 @@ Package pdftex.def Info: figure/pembuatanmodel.png  used on input line 17.
 [38
 
  <./figure/alur_penelitian.png>]
-<figure/perbandinganpersentasenormalpenipuan.png, id=913, 606.265pt x 454.69875pt>
+<figure/perbandinganpersentasenormalpenipuan.png, id=971, 606.265pt x 454.69875pt>
 File: figure/perbandinganpersentasenormalpenipuan.png Graphic file (type png)
 <use figure/perbandinganpersentasenormalpenipuan.png>
 Package pdftex.def Info: figure/perbandinganpersentasenormalpenipuan.png  used on input line 29.
@@ -3352,7 +3356,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39 <./figure/pembuatanmodel.png>]
-<figure/distribusiwaktunormalpenipuan.png, id=923, 680.5425pt x 464.73625pt>
+<figure/distribusiwaktunormalpenipuan.png, id=981, 680.5425pt x 464.73625pt>
 File: figure/distribusiwaktunormalpenipuan.png Graphic file (type png)
 <use figure/distribusiwaktunormalpenipuan.png>
 Package pdftex.def Info: figure/distribusiwaktunormalpenipuan.png  used on input line 39.
@@ -3366,7 +3370,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40 <./figure/perbandinganpersentasenormalpenipuan.png>]
-<figure/jumlah transaksi.png, id=934, 720.6925pt x 449.68pt>
+<figure/jumlah transaksi.png, id=993, 720.6925pt x 449.68pt>
 File: figure/jumlah transaksi.png Graphic file (type png)
 <use figure/jumlah transaksi.png>
 Package pdftex.def Info: figure/jumlah transaksi.png  used on input line 46.
@@ -3380,12 +3384,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41 <./figure/distribusiwaktunormalpenipuan.png>]
-<figure/nolsampaiseratus.png, id=940, 733.74126pt x 449.68pt>
+<figure/nolsampaiseratus.png, id=999, 733.74126pt x 449.68pt>
 File: figure/nolsampaiseratus.png Graphic file (type png)
 <use figure/nolsampaiseratus.png>
 Package pdftex.def Info: figure/nolsampaiseratus.png  used on input line 52.
 (pdftex.def)             Requested size: 206.28249pt x 126.41728pt.
-<figure/jumlahtransaksiduaribulimaratus.png, id=941, 724.7075pt x 464.73625pt>
+<figure/jumlahtransaksiduaribulimaratus.png, id=1000, 724.7075pt x 464.73625pt>
 File: figure/jumlahtransaksiduaribulimaratus.png Graphic file (type png)
 <use figure/jumlahtransaksiduaribulimaratus.png>
 Package pdftex.def Info: figure/jumlahtransaksiduaribulimaratus.png  used on input line 58.
@@ -3404,13 +3408,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42 <./figure/jumlah transaksi.png> <./figure/nolsampaiseratus.png> <./figure/jumlahtransaksiduaribulimaratus.png>]
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 12.0pt on input line 66.
+(Font)              scaled to size 12.0pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 8.8pt on input line 66.
+(Font)              scaled to size 8.8pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.6pt on input line 66.
+(Font)              scaled to size 6.6pt on input line 67.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 1253) in paragraph at lines 72--74
+\OT1/minntx/m/n/12 pe-ngam-bil-an da-ta-nya de-ngan meng-gu-nak-an \OT1/ntxtlf/m/it/12 stra-ti-fi-ed sam-pling \OT1/minntx/m/n/12 de-ngan for-mat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
@@ -3422,20 +3431,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [43]
-<figure/plot tsne.png, id=952, 1076.1003pt x 354.123pt>
+<figure/plot tsne.png, id=1010, 1076.1003pt x 354.123pt>
 File: figure/plot tsne.png Graphic file (type png)
 <use figure/plot tsne.png>
-Package pdftex.def Info: figure/plot tsne.png  used on input line 113.
+Package pdftex.def Info: figure/plot tsne.png  used on input line 117.
 (pdftex.def)             Requested size: 288.79422pt x 95.0363pt.
 
-Underfull \hbox (badness 4242) in paragraph at lines 110--116
+Underfull \hbox (badness 4242) in paragraph at lines 114--120
 []\OT1/minntx/m/n/12 Selanjutnya pe-ne-li-ti ak-an me-la-kuk-an me-to-de \OT1/ntxtlf/m/it/12 over-sam-pling \OT1/minntx/m/n/12 yang ak-an
  []
 
-<figure/AlurPembuatanModel.png, id=953, 7720.845pt x 3050.39626pt>
+<figure/AlurPembuatanModel.png, id=1011, 7720.845pt x 3050.39626pt>
 File: figure/AlurPembuatanModel.png Graphic file (type png)
 <use figure/AlurPembuatanModel.png>
-Package pdftex.def Info: figure/AlurPembuatanModel.png  used on input line 121.
+Package pdftex.def Info: figure/AlurPembuatanModel.png  used on input line 125.
 (pdftex.def)             Requested size: 288.79422pt x 114.08238pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3453,12 +3462,197 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [45]
-Underfull \hbox (badness 1377) in paragraph at lines 152--153
+Underfull \hbox (badness 1377) in paragraph at lines 156--157
 \OT1/minntx/m/n/12 per-for-ma da-ri mo-del \OT1/ntxtlf/m/it/12 ran-dom fo-rest \OT1/minntx/m/n/12 dan \OT1/ntxtlf/m/it/12 xgbo-ost \OT1/minntx/m/n/12 de-ngan meng-gu-nak-an
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 165--167
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 191.
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 191.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 208--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+
+Overfull \hbox (7.05492pt too wide) detected at line 240
+\OML/ntxmi/m/it/12 d[] \U/ntxmia/m/it/12 = [] = [] = [] = [] \LMS/ntxsy/m/n/12 ^^Y \OT1/minntx/m/n/12 0\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 54
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Overfull \hbox (7.05492pt too wide) detected at line 245
+\OML/ntxmi/m/it/12 d[] \U/ntxmia/m/it/12 = [] = [] = [] = [] \LMS/ntxsy/m/n/12 ^^Y \OT1/minntx/m/n/12 0\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 71
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Overfull \hbox (18.79971pt too wide) detected at line 268
+\OML/ntxmi/m/it/12 d[] \U/ntxmia/m/it/12 = [] = [] = [] = [] \LMS/ntxsy/m/n/12 ^^Y \OT1/minntx/m/n/12 4\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 09
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+
+Overfull \hbox (3.40372pt too wide) detected at line 273
+\OML/ntxmi/m/it/12 d[] \U/ntxmia/m/it/12 = [] = [] = [] = [] \LMS/ntxsy/m/n/12 ^^Y \OT1/minntx/m/n/12 4\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 11
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--292
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--323
+
+ []
+
+./chapters/chapter-3.tex:329: Undefined control sequence.
+l.329 Mengkalikan dengan lamdha $(\lamdha
+                                          = 0.5)$:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--338
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
+Underfull \hbox (badness 1675) in paragraph at lines 355--357
 []\OT1/minntx/m/n/12 Minimum spe-si-fi-ka-si kom-pu-ter, lap-top, atau no-te-bo-ok agar da-pat
  []
 
@@ -3469,7 +3663,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46])
+[51]) (./chapters/chapter-4.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3477,7 +3671,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47]
+[52]
+BAB IV.
+
+LaTeX Warning: Reference `III.Metode' on page 53 undefined on input line 5.
+
+
+LaTeX Warning: Reference `III.Rancang Uji' on page 53 undefined on input line 8.
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 8--8
+[]\OT1/minntx/m/n/12 Berikan ha-sil pe-ngu-ji-an ber-da-sark-an ran-cang-an & ske-na-rio yang su-dah
+ []
+
+<figure/zeta.png, id=1114, 1027.84pt x 881.2925pt>
+File: figure/zeta.png Graphic file (type png)
+<use figure/zeta.png>
+Package pdftex.def Info: figure/zeta.png  used on input line 25.
+(pdftex.def)             Requested size: 206.28249pt x 176.8605pt.
+[53
+
+ <./figure/zeta.png>]) (./chapters/chapter-5.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54]
+BAB V.
+)
+Underfull \hbox (badness 1009) in paragraph at lines 8--129
+[]\OT1/minntx/m/n/12 Berisi sar-an meng-e-nai as-pek Tu-gas Akhir atau te-mu-an da-lam pe-ne-li-ti-an.
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 8--129
+\OT1/minntx/m/n/12 Di-u-ta-mak-an sar-an ber-da-sark-an ha-sil ana-li-sis da-ri Su-bbab [][]4.3[][]. Sar-an da-pat
+ []
+
+[55
+
+]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
 (biblatex)                at entry 'suryohadibroto1987surat' on input line 134.
@@ -3652,7 +3888,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 Package biblatex Warning: Bibliography string 'page' untranslated
 (biblatex)                at entry 'seeja2014fraudminer' on input line 134.
 
-[48
+[56
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc}]
 
@@ -3856,7 +4092,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49]
+[57]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
 (biblatex)                at entry 'asha2021credit' on input line 134.
@@ -4053,7 +4289,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50]
+[58]
 
 Package biblatex Warning: Bibliography string 'in' untranslated
 (biblatex)                at entry 'ruder2016overview' on input line 134.
@@ -4232,7 +4468,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51]
+[59]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
 (biblatex)                at entry 'rojas2012graphical' on input line 134.
@@ -4423,7 +4659,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52]
+[60]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
 (biblatex)                at entry 'gonick1993cartoon' on input line 134.
@@ -4473,7 +4709,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53] (./chapters/appendix.tex) [54
+[61] (./chapters/appendix.tex) [62
 
 ] (./thesis.aux)
  ***********
@@ -4488,7 +4724,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 38B8D21E9F5370527FDA30C8AEF969F9;7531.
+(rerunfilecheck)             Checksum: 48FBD52A94F95906B25AD3BC897EABCA;8893.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                thesis
@@ -4499,18 +4735,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38639 strings out of 475670
- 729150 string characters out of 5784921
+ 38768 strings out of 475670
+ 731071 string characters out of 5784921
  1955975 words of memory out of 5000000
- 59805 multiletter control sequences out of 15000+600000
- 594425 words of font info for 105 fonts, out of 8000000 for 9000
+ 59882 multiletter control sequences out of 15000+600000
+ 594801 words of font info for 106 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 100i,16n,120p,1923b,1687s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (69 pages, 2232438 bytes).
+ 100i,16n,120p,1878b,1685s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on thesis.pdf (77 pages, 2301267 bytes).
 PDF statistics:
- 1182 PDF objects out of 1200 (max. 8388607)
- 1031 compressed objects within 11 object streams
- 349 named destinations out of 1000 (max. 500000)
- 606 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 1154 compressed objects within 12 object streams
+ 391 named destinations out of 1000 (max. 500000)
+ 691 words of extra memory for PDF output out of 10000 (max. 10000000)
 
