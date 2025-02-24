@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.3)  24 FEB 2025 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.3)  24 FEB 2025 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,7 +306,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip63
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1083,12 +1083,12 @@ Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing 
 \cftbeforeequtitleskip=\skip150
 \cftafterequtitleskip=\skip151
 )
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 23.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 23.
+(Font)              scaled to size 12.0pt on input line 27.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -1098,70 +1098,49 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotereset=\count485
 (./thesis.aux
 
-LaTeX Warning: Label `table:2.literasi' multiply defined.
-
-
-LaTeX Warning: Label `table:2.literasi' multiply defined.
-
-
-LaTeX Warning: Label `table:2.literasi' multiply defined.
-
-
-LaTeX Warning: Label `table:2.literasi' multiply defined.
-
-
-LaTeX Warning: Label `table:2.literasi' multiply defined.
-
-
-LaTeX Warning: Label `table:2.literasi' multiply defined.
-
-
-LaTeX Warning: Label `table:2.literasi' multiply defined.
-
-
 LaTeX Warning: Label `tab:trainingsesudahscaling' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 23.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 23.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 27.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 23.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 23.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 23.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 27.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 27.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count486
@@ -1181,9 +1160,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 23.
-LaTeX Info: Command `\ddddot' is already robust on input line 23.
-Package hyperref Info: Link coloring ON on input line 23.
+LaTeX Info: Command `\dddot' is already robust on input line 27.
+LaTeX Info: Command `\ddddot' is already robust on input line 27.
+Package hyperref Info: Link coloring ON on input line 27.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1229,7 +1208,7 @@ Package biblatex Info: Trying to load language 'bahasa'...
 Package biblatex Info: ... file 'bahasa.lbx' not found.
 
 Package biblatex Warning: Language 'bahasa' not supported.
-(biblatex)                Using dummy definitions on input line 23.
+(biblatex)                Using dummy definitions on input line 27.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1258,8 +1237,8 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./chapters/cover-hard.tex
@@ -1467,9 +1446,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ])
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 76.
+(Font)              scaled to size 24.88pt on input line 80.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 76.
+(Font)              scaled to size 24.88pt on input line 80.
  (./thesis.toc
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1620,7 +1599,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Overfull \hbox (0.51141pt too wide) in alignment at lines 16--22
+Overfull \hbox (0.51141pt too wide) in alignment at lines 17--20
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.51141pt too wide) in alignment at lines 20--22
  [] [] [] [] [] 
  []
 
@@ -1635,1257 +1619,1108 @@ Underfull \hbox (badness 2495) in paragraph at lines 23--23
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 23--23
+Underfull \hbox (badness 1424) in paragraph at lines 24--24
 []|\OT1/minntx/m/n/12 Penipuan da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 tran-sak-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 kar-tu kre-dit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 me-ru-pak-an hal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 yang umum
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 23--23
+Underfull \hbox (badness 2073) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 sa-at ini ka-re-na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 se-ba-gi-an be-sar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 da-ri ki-ta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 le-bih se-ring
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 meng-gu-nak-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 me-to-de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 pem-ba-yar-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 ini di-se-babk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 ke-ma-ju-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 tek-no-lo-gi dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 pe-ning-kat-an
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 23--23
+Underfull \hbox (badness 2318) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 tran-sak-si onli-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 meng-a-ki-batk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 pe-ni-pu-an yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 me-nye-babk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 ke-ru-gi-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 \OT1/minntx/m/n/12 fi-nan-si-al yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []|\OT1/minntx/m/n/12 support
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 ve-ctor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 ma-chi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 (SVM),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 k-nearest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 ne-i-ghbor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 (KNN),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 Ar-ti-fi-ci-al
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 ne-u-ral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 \OT1/minntx/m/n/12 ne-twork
  []
 
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 26.
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-[]|\OT1/minntx/m/n/12 SVM accu-ra-cy=
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\OT1/minntx/m/n/12 Accuracy:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 0.9349 pre-ci-sion=
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]\OT1/minntx/m/n/12 Precision:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 0.9743 re-ca-ll=
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]\OT1/minntx/m/n/12 Accuracy:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 0.8976, KNN
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]\OT1/minntx/m/n/12 Precision:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 accu-ra-cy= 0.9982
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\OT1/minntx/m/n/12 Accuracy:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 pre-ci-sion= 0.7142
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\OT1/minntx/m/n/12 Precision:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 ANN accu-ra-cy=
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 0.9992 pre-ci-sion=
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/minntx/m/n/12 0.8115 re-ca-ll=
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 []|\OT1/ntxtlf/m/it/12 Hyperparameter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 \OT1/ntxtlf/m/it/12 op-ti-mi-za-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 \OT1/ntxtlf/m/it/12 using ge-ne-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 \OT1/ntxtlf/m/it/12 al-go-ri-thms to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
 \OT1/ntxtlf/m/it/12 de-te-ct fra-u-ds
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 []|\OT1/minntx/m/n/12 sekarang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \OT1/minntx/m/n/12 se-rvis onli-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \OT1/minntx/m/n/12 ber-kem-bang
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 25--25
+Underfull \hbox (badness 8189) in paragraph at lines 47--47
 \OT1/minntx/m/n/12 men-ja-di sa-ngat
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 25--25
+Underfull \hbox (badness 1715) in paragraph at lines 47--47
 \OT1/minntx/m/n/12 pe-ni-pu-an da-lam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \OT1/minntx/m/n/12 men-ja-di le-bih
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 25--25
+Underfull \hbox (badness 1521) in paragraph at lines 47--47
 \OT1/minntx/m/n/12 be-sar, ter-ma-suk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\OT1/minntx/m/n/12 SMOTE,
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 25--26
+Underfull \hbox (badness 4792) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 grid se-ar-ch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 (GS)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 me-tho-ds,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 ran-dom
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 25--26
+Underfull \hbox (badness 2027) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 fo-rest (RF),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 Ada-Bo-ost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 (AB),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 lo-gis-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 re-gres-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 (LR),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 de-ci-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 tree (DT),
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 25--26
-\OT1/minntx/m/n/12 and sup-port
+Underfull \hbox (badness 1048) in paragraph at lines 48--48
+\OT1/minntx/m/n/12 dan sup-port
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 ve-ctor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 ma-chi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/minntx/m/n/12 (SVM)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-[]|\OT1/minntx/m/n/12 SVM:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Pre-ci-sion=95%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Re-ca-ll=95%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 F1-score=95%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Accu-ra-cy=94%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Ti-me=19.039 LR:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Pre-ci-sion=97%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Re-ca-ll=91%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 F1-score=94%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Accu-ra-cy=94%,
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Ti-me=104.016 AB:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Pre-ci-sion=98%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Re-ca-ll=93%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 F1-score=95%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Accu-ra-cy=95%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Ti-me=235.037 RF:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Pre-ci-sion=96%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Re-ca-ll=92%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 F1-score=94%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Accu-ra-cy=94%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Ti-me=130.300 DT:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Pre-ci-sion=94%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Re-ca-ll=91%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 F1-score=93%,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/minntx/m/n/12 Accu-ra-cy=92%,
- []
-
-
-Underfull \hbox (badness 6559) in paragraph at lines 32--32
+Underfull \hbox (badness 6559) in paragraph at lines 91--91
 []|\OT1/minntx/m/n/12 Analisis sis-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \OT1/minntx/m/n/12 pen-de-tek-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \OT1/minntx/m/n/12 pe-ni-pu-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \OT1/minntx/m/n/12 tran-sak-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \OT1/minntx/m/n/12 kar-tu kre-dit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []|\OT1/minntx/m/n/12 Banyaknya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 vo-lu-me
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 tran-sak-si dan
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 32--32
+Underfull \hbox (badness 2393) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 ce-pat-nya pro-ses
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 tran-sak-si yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 ber-lang-sung,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 mem-bu-at ti-dak
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 32--32
+Underfull \hbox (badness 6204) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 mung-kin un-tuk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 di-a-wa-si se-ca-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 ma-nu-al oleh
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 32--32
+Underfull \hbox (badness 3088) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 ma-nu-sia ka-re-na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 itu pen-pu-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 tran-sak-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 dan ha-rus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/minntx/m/n/12 di-se-le-sa-ik-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/minntx/m/n/12 analisis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 kom-pa-ra-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 mo-del +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 im-ba-lan-ce,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 mo-del +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 SMO-TE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 mo-del +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 pa-ram +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 im-ba-lan-ce,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 mo-del +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 pa-ram +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 SMO-TE,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 de-ngan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 mo-del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 de-ci-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 tree (DT),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 ran-dom
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 32--32
+Underfull \hbox (badness 2027) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 fo-rest (RF),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 lo-gis-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 re-gres-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 (LR), dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 sup-port
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 ve-ctor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/minntx/m/n/12 ma-chi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-[]|\OT1/minntx/m/n/12 algoritma ran-dom
+Underfull \hbox (badness 2042) in paragraph at lines 94--94
+[]|\OT1/minntx/m/n/12 Algoritma \OT1/ntxtlf/b/n/12 Ran-dom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 \OT1/minntx/m/n/12 per-for-ma pa-ling
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-\OT1/minntx/m/n/12 mo-del, di-su-sul
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/minntx/m/n/12 ba-ik di an-ta-ra
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 32--35
-\OT1/minntx/m/n/12 oleh mo-del de-ngan
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/minntx/m/n/12 se-mua mo-del,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-\OT1/minntx/m/n/12 al-go-ri-tma de-ci-sion
+Underfull \hbox (badness 1748) in paragraph at lines 94--94
+\OT1/minntx/m/n/12 di-su-sul oleh mo-del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-\OT1/minntx/m/n/12 yang mem-buk-tik-an
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/minntx/m/n/12 de-ngan al-go-ri-tma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-\OT1/minntx/m/n/12 bah-wa en-sem-ble
+Underfull \hbox (badness 3323) in paragraph at lines 94--94
+\OT1/minntx/m/n/12 hal ini pu-la yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
-\OT1/minntx/m/n/12 le-ar-ning ada-lah
+Underfull \hbox (badness 7522) in paragraph at lines 94--94
+\OT1/ntxtlf/b/n/12 en-sem-ble le-ar-ning
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/ntxtlf/b/n/12 ada-lah tek-nik
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 95--95
 \OT1/ntxtlf/m/it/12 de-te-ction using
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/ntxtlf/m/it/12 sup-port ve-ctor
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 36--36
+Underfull \hbox (badness 7631) in paragraph at lines 96--96
 []|\OT1/minntx/m/n/12 Penipuan kar-tu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 kre-dit ti-dak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 di-ra-guk-an la-gi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 me-ru-pak-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 eksp-re-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 pe-ni-pu-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 kri-mi-nal.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 Iden-ti-fi-ka-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 pe-ni-pu-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 tam-pak-nya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 ru-mit yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 me-mer-luk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 ba-nyak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 ke-te-ram-pil-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 hing-ga
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 me-ma-sukk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 pem-be-la-jar-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/minntx/m/n/12 me-sin ke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/minntx/m/n/12 Hasil si-mu-la-si
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 36--37
+Underfull \hbox (badness 6775) in paragraph at lines 98--98
 \OT1/minntx/m/n/12 me-nun-juk-an bah-wa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-\OT1/minntx/m/n/12 SVM le-bih ba-ik
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\OT1/ntxtlf/b/n/12 SVM le-bih ba-ik
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 1635) in paragraph at lines 98--98
+\OT1/ntxtlf/b/n/12 di-ban-dingk-an \OT1/ntxtlf/b/it/12 sta-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/ntxtlf/m/it/12 Credit ca-rd
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 38--38
+Underfull \hbox (badness 7613) in paragraph at lines 99--99
 \OT1/ntxtlf/m/it/12 fra-ud de-te-ction
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/ntxtlf/m/it/12 using ma-chi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 \OT1/minntx/m/n/12 yang se-ring
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 38--40
-\OT1/minntx/m/n/12 sa-at ini. hal
+Underfull \hbox (badness 1466) in paragraph at lines 100--100
+\OT1/minntx/m/n/12 sa-at ini. Hal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 \OT1/minntx/m/n/12 ini di-se-babk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 \OT1/minntx/m/n/12 pe-ning-kat-an
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 38--40
+Underfull \hbox (badness 2318) in paragraph at lines 100--100
 \OT1/minntx/m/n/12 tran-sak-si onli-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 \OT1/minntx/m/n/12 dan pla-tform
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\OT1/minntx/m/n/12 Adaboost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-[]|\OT1/minntx/m/n/12 Random Fo-rest
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+[]\OT1/minntx/m/n/12 Precision:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\OT1/minntx/m/n/12 pre-ci-sion= 0.97%
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\OT1/minntx/m/n/12 re-ca-ll= 89% f1-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\OT1/minntx/m/n/12 score= 0.93
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\OT1/minntx/m/n/12 AUC=94%,
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 40--41
-\OT1/minntx/m/n/12 89% re-ca-ll= 81,5%
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\OT1/minntx/m/n/12 f1-score= 84,5%
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\OT1/ntxtlf/m/it/12 Enhancing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \OT1/ntxtlf/m/it/12 cre-dit ca-rd
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 42--42
+Underfull \hbox (badness 1701) in paragraph at lines 118--118
 \OT1/ntxtlf/m/it/12 fra-ud de-te-ction:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \OT1/ntxtlf/m/it/12 an en-sem-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \OT1/ntxtlf/m/it/12 ma-chi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \OT1/ntxtlf/m/it/12 le-ar-ning
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 di-gi-tal,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 me-ning-kat-nya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 pe-ni-pu-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 kar-tu kre-dit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 meng-ha-rusk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 ada-nya
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 pe-ngem-bang-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 sis-tem de-tek-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \OT1/minntx/m/n/12 pe-ni-pu-an yang
  []
 
 
-Overfull \hbox (19.44179pt too wide) in paragraph at lines 42--43
-[]|\OT1/minntx/m/n/12 Membandingkan
+Overfull \hbox (2.11378pt too wide) in paragraph at lines 120--120
+[]|\OT1/minntx/m/n/12 Membanding
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/minntx/m/n/12 kan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 en-sem-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 tra-di-tio-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 ma-chi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\OT1/minntx/m/n/12 le-ar-ning
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/minntx/m/n/12 le-ar-ning:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 Sup-port
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 Ve-ctor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 Ma-chi-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 (SVM),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 K-Nearest
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 Ne-i-ghbor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 (KNN),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 Ran-dom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 Bag-ging,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\OT1/minntx/m/n/12 and
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/minntx/m/n/12 dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \OT1/minntx/m/n/12 Bo-os-ting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-[]|\OT1/minntx/m/n/12 Metode en-sam-ble
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\OT1/minntx/m/n/12 Metode \OT1/ntxtlf/b/n/12 En-sem-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\OT1/minntx/m/n/12 meng-ung-gu-li
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\OT1/ntxtlf/b/n/12 Le-ar-ning
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-\OT1/minntx/m/n/12 mo-del in-di-vi-du-al,
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\OT1/ntxtlf/b/n/12 meng-ung-gu-li
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\OT1/ntxtlf/b/n/12 mo-del in-di-vi-du-al\OT1/minntx/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 \OT1/minntx/m/n/12 me-nun-jukk-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 \OT1/minntx/m/n/12 efek-ti-vi-tas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 \OT1/minntx/m/n/12 peng-ga-bung-an
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 45--45
+Underfull \hbox (badness 6961) in paragraph at lines 122--122
 \OT1/ntxtlf/m/it/12 de-te-ction using
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 \OT1/ntxtlf/m/it/12 XGBo-ost for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\OT1/minntx/m/n/12 peningkatan
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\OT1/minntx/m/n/12 Peningkatan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 di se-lu-ruh
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 45--45
+Underfull \hbox (badness 2495) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 du-nia, ber-ba-gai
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 al-go-ri-tma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 pem-be-la-jar-an
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 45--45
+Underfull \hbox (badness 1052) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 oleh ana-lis dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 pe-ne-li-ti un-tuk
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 45--45
+Underfull \hbox (badness 3078) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 men-de-tek-si dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 meng-a-na-li-sis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 pe-ni-pu-an
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 45--45
+Underfull \hbox (badness 3078) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 da-lam tran-sak-si
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 kum-pul-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 da-ta pe-la-tih-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 mung-kin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 me-mi-li-ki
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 be-be-ra-pa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 in-stan-ce da-ri
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 45--45
+Underfull \hbox (badness 2073) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 sa-tu atau le-bih
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 in-stan-ce da-ri
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 ke-las la-in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 da-lam ka-sus
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 45--45
+Underfull \hbox (badness 1701) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 kla-si-fi-ka-si bi-ner
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-\OT1/minntx/m/n/12 ke-las ter-ten-tu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \OT1/minntx/m/n/12 yang mem-bu-at
  []
 
 
-Overfull \hbox (0.51141pt too wide) in alignment at lines 22--47
+Overfull \hbox (0.51141pt too wide) in alignment at lines 22--130
  [] [] [] [] [] 
  []
 
@@ -2896,7 +2731,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
+[8{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2945,10 +2780,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-<figure/image.png, id=658, 614.295pt x 220.825pt>
+<figure/image.png, id=652, 614.295pt x 220.825pt>
 File: figure/image.png Graphic file (type png)
 <use figure/image.png>
-Package pdftex.def Info: figure/image.png  used on input line 58.
+Package pdftex.def Info: figure/image.png  used on input line 141.
 (pdftex.def)             Requested size: 330.05322pt x 118.64731pt.
 
 
@@ -2959,12 +2794,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-Underfull \hbox (badness 1888) in paragraph at lines 66--68
+Underfull \hbox (badness 1888) in paragraph at lines 149--151
 []\OT1/ntxtlf/m/it/12 Gradient de-scent \OT1/minntx/m/n/12 me-ru-pak-an se-bu-ah \OT1/ntxtlf/m/it/12 op-ti-mi-za-tion al-go-ri-thm \OT1/minntx/m/n/12 yang umum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
@@ -2976,15 +2811,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./figure/image.png>]
-<figure/scatter plot linear regression.png, id=685, 480.79625pt x 455.7025pt>
+<figure/scatter plot linear regression.png, id=679, 480.79625pt x 455.7025pt>
 File: figure/scatter plot linear regression.png Graphic file (type png)
 <use figure/scatter plot linear regression.png>
-Package pdftex.def Info: figure/scatter plot linear regression.png  used on input line 91.
+Package pdftex.def Info: figure/scatter plot linear regression.png  used on input line 174.
 (pdftex.def)             Requested size: 206.28249pt x 195.51714pt.
-<figure/Scatter plot cost function.png, id=687, 475.7775pt x 458.71375pt>
+<figure/Scatter plot cost function.png, id=681, 475.7775pt x 458.71375pt>
 File: figure/Scatter plot cost function.png Graphic file (type png)
 <use figure/Scatter plot cost function.png>
-Package pdftex.def Info: figure/Scatter plot cost function.png  used on input line 98.
+Package pdftex.def Info: figure/Scatter plot cost function.png  used on input line 181.
 (pdftex.def)             Requested size: 206.28249pt x 198.88792pt.
 
 
@@ -2995,13 +2830,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17 <./figure/scatter plot linear regression.png>]
-<figure/gradient descent.png, id=696, 423.38174pt x 220.4235pt>
+<figure/gradient descent.png, id=690, 423.38174pt x 220.4235pt>
 File: figure/gradient descent.png Graphic file (type png)
 <use figure/gradient descent.png>
-Package pdftex.def Info: figure/gradient descent.png  used on input line 107.
+Package pdftex.def Info: figure/gradient descent.png  used on input line 190.
 (pdftex.def)             Requested size: 206.28249pt x 107.3963pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
  []
 
@@ -3014,23 +2849,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18 <./figure/Scatter plot cost function.png> <./figure/gradient descent.png>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 115.
+(Font)              scaled to size 8.8pt on input line 198.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 115.
+(Font)              scaled to size 6.6pt on input line 198.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
  []
 
-<figure/Learning rate kecil.png, id=712, 329.23pt x 220.825pt>
+<figure/Learning rate kecil.png, id=706, 329.23pt x 220.825pt>
 File: figure/Learning rate kecil.png Graphic file (type png)
 <use figure/Learning rate kecil.png>
-Package pdftex.def Info: figure/Learning rate kecil.png  used on input line 146.
+Package pdftex.def Info: figure/Learning rate kecil.png  used on input line 229.
 (pdftex.def)             Requested size: 206.28249pt x 138.36234pt.
-<figure/Learning rate besar.png, id=713, 329.23pt x 253.94875pt>
+<figure/Learning rate besar.png, id=707, 329.23pt x 253.94875pt>
 File: figure/Learning rate besar.png Graphic file (type png)
 <use figure/Learning rate besar.png>
-Package pdftex.def Info: figure/Learning rate besar.png  used on input line 152.
+Package pdftex.def Info: figure/Learning rate besar.png  used on input line 235.
 (pdftex.def)             Requested size: 206.28249pt x 159.11668pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3048,10 +2883,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20 <./figure/Learning rate kecil.png> <./figure/Learning rate besar.png>]
-<figure/kartu.png, id=737, 604.2575pt x 561.09625pt>
+<figure/kartu.png, id=731, 604.2575pt x 561.09625pt>
 File: figure/kartu.png Graphic file (type png)
 <use figure/kartu.png>
-Package pdftex.def Info: figure/kartu.png  used on input line 177.
+Package pdftex.def Info: figure/kartu.png  used on input line 260.
 (pdftex.def)             Requested size: 206.28249pt x 191.5493pt.
 
 
@@ -3062,10 +2897,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
-<figure/gambar imbalance data.png, id=761, 286.06876pt x 177.66376pt>
+<figure/gambar imbalance data.png, id=754, 286.06876pt x 177.66376pt>
 File: figure/gambar imbalance data.png Graphic file (type png)
 <use figure/gambar imbalance data.png>
-Package pdftex.def Info: figure/gambar imbalance data.png  used on input line 187.
+Package pdftex.def Info: figure/gambar imbalance data.png  used on input line 270.
 (pdftex.def)             Requested size: 206.28249pt x 128.11298pt.
 
 
@@ -3076,7 +2911,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22 <./figure/kartu.png>]
-Underfull \hbox (badness 1132) in paragraph at lines 211--212
+Underfull \hbox (badness 1132) in paragraph at lines 294--295
 []\OT1/ntxtlf/m/it/12 Feature engi-ne-e-ring \OT1/minntx/m/n/12 ada-lah pro-ses pen-ting da-lam \OT1/ntxtlf/m/it/12 ma-chi-ne le-ar-ning \OT1/minntx/m/n/12 yang
  []
 
@@ -3088,15 +2923,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23 <./figure/gambar imbalance data.png>]
-<figure/output feature creation only one feature.png, id=797, 633.0852pt x 395.3169pt>
+<figure/output feature creation only one feature.png, id=791, 633.0852pt x 395.3169pt>
 File: figure/output feature creation only one feature.png Graphic file (type png)
 <use figure/output feature creation only one feature.png>
-Package pdftex.def Info: figure/output feature creation only one feature.png  used on input line 218.
+Package pdftex.def Info: figure/output feature creation only one feature.png  used on input line 301.
 (pdftex.def)             Requested size: 206.28249pt x 128.80823pt.
-<figure/output feature creation multiple feature.png, id=798, 633.0852pt x 395.3169pt>
+<figure/output feature creation multiple feature.png, id=792, 633.0852pt x 395.3169pt>
 File: figure/output feature creation multiple feature.png Graphic file (type png)
 <use figure/output feature creation multiple feature.png>
-Package pdftex.def Info: figure/output feature creation multiple feature.png  used on input line 225.
+Package pdftex.def Info: figure/output feature creation multiple feature.png  used on input line 308.
 (pdftex.def)             Requested size: 206.28249pt x 128.80823pt.
 
 
@@ -3107,15 +2942,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24 <./figure/output feature creation only one feature.png>]
-<figure/before feature scaling.png, id=811, 366.4089pt x 395.3169pt>
+<figure/before feature scaling.png, id=805, 366.4089pt x 395.3169pt>
 File: figure/before feature scaling.png Graphic file (type png)
 <use figure/before feature scaling.png>
-Package pdftex.def Info: figure/before feature scaling.png  used on input line 235.
+Package pdftex.def Info: figure/before feature scaling.png  used on input line 318.
 (pdftex.def)             Requested size: 206.28249pt x 222.55823pt.
-<figure/after feature scaling.png, id=812, 251.4996pt x 339.669pt>
+<figure/after feature scaling.png, id=806, 251.4996pt x 339.669pt>
 File: figure/after feature scaling.png Graphic file (type png)
 <use figure/after feature scaling.png>
-Package pdftex.def Info: figure/after feature scaling.png  used on input line 241.
+Package pdftex.def Info: figure/after feature scaling.png  used on input line 324.
 (pdftex.def)             Requested size: 206.28249pt x 278.6133pt.
 
 
@@ -3134,12 +2969,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26 <./figure/before feature scaling.png> <./figure/after feature scaling.png>]
-Underfull \hbox (badness 1635) in paragraph at lines 252--253
+Underfull \hbox (badness 1635) in paragraph at lines 335--336
 \OT1/minntx/m/n/12 se-bu-ah me-to-de yang di-gu-nak-an un-tuk meng-a-ta-si ma-sa-lah ke-ti-dak-se-mi-bang-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
@@ -3151,15 +2986,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
-<figure/visualisasi_data_sebelum_smote.png, id=844, 290.5254pt x 325.9377pt>
+<figure/visualisasi_data_sebelum_smote.png, id=838, 290.5254pt x 325.9377pt>
 File: figure/visualisasi_data_sebelum_smote.png Graphic file (type png)
 <use figure/visualisasi_data_sebelum_smote.png>
-Package pdftex.def Info: figure/visualisasi_data_sebelum_smote.png  used on input line 271.
+Package pdftex.def Info: figure/visualisasi_data_sebelum_smote.png  used on input line 354.
 (pdftex.def)             Requested size: 206.28249pt x 231.4323pt.
-<figure/visualisasi_data_sesudah_smote.png, id=845, 198.7425pt x 314.3745pt>
+<figure/visualisasi_data_sesudah_smote.png, id=839, 198.7425pt x 314.3745pt>
 File: figure/visualisasi_data_sesudah_smote.png Graphic file (type png)
 <use figure/visualisasi_data_sesudah_smote.png>
-Package pdftex.def Info: figure/visualisasi_data_sesudah_smote.png  used on input line 278.
+Package pdftex.def Info: figure/visualisasi_data_sesudah_smote.png  used on input line 361.
 (pdftex.def)             Requested size: 206.28249pt x 326.31335pt.
 
 
@@ -3178,19 +3013,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29 <./figure/visualisasi_data_sesudah_smote.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
-<figure/visualisasi_data_sebelum_adasyn.png, id=864, 290.5254pt x 324.4923pt>
+<figure/visualisasi_data_sebelum_adasyn.png, id=858, 290.5254pt x 324.4923pt>
 File: figure/visualisasi_data_sebelum_adasyn.png Graphic file (type png)
 <use figure/visualisasi_data_sebelum_adasyn.png>
-Package pdftex.def Info: figure/visualisasi_data_sebelum_adasyn.png  used on input line 297.
+Package pdftex.def Info: figure/visualisasi_data_sebelum_adasyn.png  used on input line 380.
 (pdftex.def)             Requested size: 206.28249pt x 230.40599pt.
-<figure/visualisasi_data_sesudah_adasyn.png, id=865, 198.7425pt x 312.9291pt>
+<figure/visualisasi_data_sesudah_adasyn.png, id=859, 198.7425pt x 312.9291pt>
 File: figure/visualisasi_data_sesudah_adasyn.png Graphic file (type png)
 <use figure/visualisasi_data_sesudah_adasyn.png>
-Package pdftex.def Info: figure/visualisasi_data_sesudah_adasyn.png  used on input line 304.
+Package pdftex.def Info: figure/visualisasi_data_sesudah_adasyn.png  used on input line 387.
 (pdftex.def)             Requested size: 206.28249pt x 324.81305pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3200,13 +3035,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30 <./figure/visualisasi_data_sebelum_adasyn.png>]
-<figure/decision tree.png, id=877, 602.25pt x 405.515pt>
+<figure/decision tree.png, id=870, 602.25pt x 405.515pt>
 File: figure/decision tree.png Graphic file (type png)
 <use figure/decision tree.png>
-Package pdftex.def Info: figure/decision tree.png  used on input line 313.
+Package pdftex.def Info: figure/decision tree.png  used on input line 396.
 (pdftex.def)             Requested size: 206.28249pt x 138.89423pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--316
+Underfull \hbox (badness 10000) in paragraph at lines 393--399
 
  []
 
@@ -3218,17 +3053,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31 <./figure/visualisasi_data_sesudah_adasyn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--329
+Underfull \hbox (badness 10000) in paragraph at lines 404--412
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--338
+Underfull \hbox (badness 10000) in paragraph at lines 414--421
 
  []
 
@@ -3240,13 +3075,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32 <./figure/decision tree.png>]
-<figure/random_forest.png, id=896, 803.0pt x 401.5pt>
+<figure/random_forest.png, id=890, 803.0pt x 401.5pt>
 File: figure/random_forest.png Graphic file (type png)
 <use figure/random_forest.png>
-Package pdftex.def Info: figure/random_forest.png  used on input line 350.
+Package pdftex.def Info: figure/random_forest.png  used on input line 433.
 (pdftex.def)             Requested size: 288.79422pt x 144.39897pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--353
+Underfull \hbox (badness 10000) in paragraph at lines 429--436
 
  []
 
@@ -3258,7 +3093,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33 <./figure/random_forest.png>]
-Underfull \hbox (badness 2894) in paragraph at lines 358--359
+Underfull \hbox (badness 2894) in paragraph at lines 441--442
 []\OT1/minntx/m/n/12 min[]sample[]split di-gu-nak-an un-tuk me-nen-tuk-an jum-lah mi-ni-mum yang
  []
 
@@ -3270,13 +3105,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-<figure/confusion_matrix.png, id=925, 357.335pt x 268.00125pt>
+<figure/confusion_matrix.png, id=919, 357.335pt x 268.00125pt>
 File: figure/confusion_matrix.png Graphic file (type png)
 <use figure/confusion_matrix.png>
-Package pdftex.def Info: figure/confusion_matrix.png  used on input line 383.
+Package pdftex.def Info: figure/confusion_matrix.png  used on input line 466.
 (pdftex.def)             Requested size: 206.28249pt x 154.7129pt.
 
-Underfull \hbox (badness 1043) in paragraph at lines 380--386
+Underfull \hbox (badness 1043) in paragraph at lines 463--469
 \OT1/ntxtlf/m/it/12 re-ca-ll\OT1/minntx/m/n/12 , \OT1/ntxtlf/m/it/12 f1-score\OT1/minntx/m/n/12 , dan \OT1/ntxtlf/m/it/12 Mat-the-ws's cor-re-la-tion co-e-ffi-ci-ent \OT1/minntx/m/n/12 (MCC) \OT1/ntxtlf/m/it/12 me-tri-cs \OT1/minntx/m/n/12 un-tuk
  []
 
@@ -3288,17 +3123,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [35 <./figure/confusion_matrix.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
  []
 
@@ -3310,12 +3145,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36]
-Underfull \hbox (badness 1281) in paragraph at lines 425--427
+Underfull \hbox (badness 1281) in paragraph at lines 508--510
 \OT1/minntx/m/n/12 ber-ker-ja de-ngan mem-per-tim-bangk-an se-mu-an ni-lai yang ada da-lam \OT1/ntxtlf/m/it/12 con-fu-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--427
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
 
  []
 
@@ -3329,12 +3164,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37]
 BAB III.
-<figure/alur_penelitian.png, id=958, 3123.67pt x 6347.715pt>
+<figure/alur_penelitian.png, id=952, 3123.67pt x 6347.715pt>
 File: figure/alur_penelitian.png Graphic file (type png)
 <use figure/alur_penelitian.png>
 Package pdftex.def Info: figure/alur_penelitian.png  used on input line 8.
 (pdftex.def)             Requested size: 206.28249pt x 419.10547pt.
-<figure/pembuatanmodel.png, id=960, 8436.51875pt x 4398.4325pt>
+<figure/pembuatanmodel.png, id=954, 8436.51875pt x 4398.4325pt>
 File: figure/pembuatanmodel.png Graphic file (type png)
 <use figure/pembuatanmodel.png>
 Package pdftex.def Info: figure/pembuatanmodel.png  used on input line 17.
@@ -3342,7 +3177,7 @@ Package pdftex.def Info: figure/pembuatanmodel.png  used on input line 17.
 [38
 
  <./figure/alur_penelitian.png>]
-<figure/perbandinganpersentasenormalpenipuan.png, id=971, 606.265pt x 454.69875pt>
+<figure/perbandinganpersentasenormalpenipuan.png, id=965, 606.265pt x 454.69875pt>
 File: figure/perbandinganpersentasenormalpenipuan.png Graphic file (type png)
 <use figure/perbandinganpersentasenormalpenipuan.png>
 Package pdftex.def Info: figure/perbandinganpersentasenormalpenipuan.png  used on input line 29.
@@ -3356,7 +3191,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39 <./figure/pembuatanmodel.png>]
-<figure/distribusiwaktunormalpenipuan.png, id=981, 680.5425pt x 464.73625pt>
+<figure/distribusiwaktunormalpenipuan.png, id=975, 680.5425pt x 464.73625pt>
 File: figure/distribusiwaktunormalpenipuan.png Graphic file (type png)
 <use figure/distribusiwaktunormalpenipuan.png>
 Package pdftex.def Info: figure/distribusiwaktunormalpenipuan.png  used on input line 39.
@@ -3370,7 +3205,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40 <./figure/perbandinganpersentasenormalpenipuan.png>]
-<figure/jumlah transaksi.png, id=993, 720.6925pt x 449.68pt>
+<figure/jumlah transaksi.png, id=986, 720.6925pt x 449.68pt>
 File: figure/jumlah transaksi.png Graphic file (type png)
 <use figure/jumlah transaksi.png>
 Package pdftex.def Info: figure/jumlah transaksi.png  used on input line 46.
@@ -3384,12 +3219,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [41 <./figure/distribusiwaktunormalpenipuan.png>]
-<figure/nolsampaiseratus.png, id=999, 733.74126pt x 449.68pt>
+<figure/nolsampaiseratus.png, id=993, 733.74126pt x 449.68pt>
 File: figure/nolsampaiseratus.png Graphic file (type png)
 <use figure/nolsampaiseratus.png>
 Package pdftex.def Info: figure/nolsampaiseratus.png  used on input line 52.
 (pdftex.def)             Requested size: 206.28249pt x 126.41728pt.
-<figure/jumlahtransaksiduaribulimaratus.png, id=1000, 724.7075pt x 464.73625pt>
+<figure/jumlahtransaksiduaribulimaratus.png, id=994, 724.7075pt x 464.73625pt>
 File: figure/jumlahtransaksiduaribulimaratus.png Graphic file (type png)
 <use figure/jumlahtransaksiduaribulimaratus.png>
 Package pdftex.def Info: figure/jumlahtransaksiduaribulimaratus.png  used on input line 58.
@@ -3431,7 +3266,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [43]
-<figure/plot tsne.png, id=1010, 1076.1003pt x 354.123pt>
+<figure/plot tsne.png, id=1004, 1076.1003pt x 354.123pt>
 File: figure/plot tsne.png Graphic file (type png)
 <use figure/plot tsne.png>
 Package pdftex.def Info: figure/plot tsne.png  used on input line 117.
@@ -3441,7 +3276,7 @@ Underfull \hbox (badness 4242) in paragraph at lines 114--120
 []\OT1/minntx/m/n/12 Selanjutnya pe-ne-li-ti ak-an me-la-kuk-an me-to-de \OT1/ntxtlf/m/it/12 over-sam-pling \OT1/minntx/m/n/12 yang ak-an
  []
 
-<figure/AlurPembuatanModel.png, id=1011, 7720.845pt x 3050.39626pt>
+<figure/AlurPembuatanModel.png, id=1005, 7720.845pt x 3050.39626pt>
 File: figure/AlurPembuatanModel.png Graphic file (type png)
 <use figure/AlurPembuatanModel.png>
 Package pdftex.def Info: figure/AlurPembuatanModel.png  used on input line 125.
@@ -3488,12 +3323,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 191.
-(/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 191.
 
 Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
@@ -3511,7 +3340,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 208--212
 
  []
@@ -3625,15 +3454,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--323
 
  []
 
-./chapters/chapter-3.tex:329: Undefined control sequence.
-l.329 Mengkalikan dengan lamdha $(\lamdha
-                                          = 0.5)$:
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 327--331
 
@@ -3684,7 +3504,7 @@ Underfull \hbox (badness 2020) in paragraph at lines 8--8
 []\OT1/minntx/m/n/12 Berikan ha-sil pe-ngu-ji-an ber-da-sark-an ran-cang-an & ske-na-rio yang su-dah
  []
 
-<figure/zeta.png, id=1114, 1027.84pt x 881.2925pt>
+<figure/zeta.png, id=1107, 1027.84pt x 881.2925pt>
 File: figure/zeta.png Graphic file (type png)
 <use figure/zeta.png>
 Package pdftex.def Info: figure/zeta.png  used on input line 25.
@@ -3702,12 +3522,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [54]
 BAB V.
 )
-Underfull \hbox (badness 1009) in paragraph at lines 8--129
+Underfull \hbox (badness 1009) in paragraph at lines 8--133
 []\OT1/minntx/m/n/12 Berisi sar-an meng-e-nai as-pek Tu-gas Akhir atau te-mu-an da-lam pe-ne-li-ti-an.
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 8--129
+Underfull \hbox (badness 1024) in paragraph at lines 8--133
 \OT1/minntx/m/n/12 Di-u-ta-mak-an sar-an ber-da-sark-an ha-sil ana-li-sis da-ri Su-bbab [][]4.3[][]. Sar-an da-pat
  []
 
@@ -3716,11 +3536,11 @@ Underfull \hbox (badness 1024) in paragraph at lines 8--129
 ]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'suryohadibroto1987surat' on input line 134.
+(biblatex)                at entry 'suryohadibroto1987surat' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'suryohadibroto1987surat' on input line 134.
+(biblatex)                at entry 'suryohadibroto1987surat' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3731,7 +3551,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'hendarsyah2020analisis' on input line 134.
+(biblatex)                at entry 'hendarsyah2020analisis' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3742,7 +3562,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'hendarsyah2020analisis' on input line 134.
+(biblatex)                at entry 'hendarsyah2020analisis' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3752,13 +3572,13 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                for \mkbibdatelong.
 
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 134.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 134.
+(Font)              scaled to size 12.0pt on input line 138.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 138.
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
 File: ot1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 134.
+(Font)              scaled to size 12.0pt on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3769,11 +3589,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'chaudhary2012review' on input line 134.
+(biblatex)                at entry 'chaudhary2012review' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'chaudhary2012review' on input line 134.
+(biblatex)                at entry 'chaudhary2012review' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3784,7 +3604,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'chaudhary2012review' on input line 134.
+(biblatex)                at entry 'chaudhary2012review' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3795,11 +3615,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'west2016intelligent' on input line 134.
+(biblatex)                at entry 'west2016intelligent' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'west2016intelligent' on input line 134.
+(biblatex)                at entry 'west2016intelligent' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3810,15 +3630,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'west2016intelligent' on input line 134.
+(biblatex)                at entry 'west2016intelligent' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'ngai2011application' on input line 134.
+(biblatex)                at entry 'ngai2011application' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'ngai2011application' on input line 134.
+(biblatex)                at entry 'ngai2011application' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3829,19 +3649,19 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'ngai2011application' on input line 134.
+(biblatex)                at entry 'ngai2011application' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'georgieva2019using' on input line 134.
+(biblatex)                at entry 'georgieva2019using' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'georgieva2019using' on input line 134.
+(biblatex)                at entry 'georgieva2019using' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'volume' untranslated
-(biblatex)                at entry 'georgieva2019using' on input line 134.
+(biblatex)                at entry 'georgieva2019using' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3852,11 +3672,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'benchaji2019using' on input line 134.
+(biblatex)                at entry 'benchaji2019using' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'benchaji2019using' on input line 134.
+(biblatex)                at entry 'benchaji2019using' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3867,15 +3687,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'benchaji2019using' on input line 134.
+(biblatex)                at entry 'benchaji2019using' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'seeja2014fraudminer' on input line 134.
+(biblatex)                at entry 'seeja2014fraudminer' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'seeja2014fraudminer' on input line 134.
+(biblatex)                at entry 'seeja2014fraudminer' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3886,18 +3706,18 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'page' untranslated
-(biblatex)                at entry 'seeja2014fraudminer' on input line 134.
+(biblatex)                at entry 'seeja2014fraudminer' on input line 138.
 
 [56
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc}]
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'kumar2022credit' on input line 134.
+(biblatex)                at entry 'kumar2022credit' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'kumar2022credit' on input line 134.
+(biblatex)                at entry 'kumar2022credit' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3908,15 +3728,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'kumar2022credit' on input line 134.
+(biblatex)                at entry 'kumar2022credit' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'gaikwad2014credit' on input line 134.
+(biblatex)                at entry 'gaikwad2014credit' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'gaikwad2014credit' on input line 134.
+(biblatex)                at entry 'gaikwad2014credit' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3927,15 +3747,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'gaikwad2014credit' on input line 134.
+(biblatex)                at entry 'gaikwad2014credit' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'mniai2023novel' on input line 134.
+(biblatex)                at entry 'mniai2023novel' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'mniai2023novel' on input line 134.
+(biblatex)                at entry 'mniai2023novel' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3946,11 +3766,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'ningsih2022analisis' on input line 134.
+(biblatex)                at entry 'ningsih2022analisis' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'ningsih2022analisis' on input line 134.
+(biblatex)                at entry 'ningsih2022analisis' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3961,25 +3781,25 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'ningsih2022analisis' on input line 134.
+(biblatex)                at entry 'ningsih2022analisis' on input line 138.
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 134--134
+Underfull \hbox (badness 1052) in paragraph at lines 138--138
 \OT1/minntx/m/n/12 ``Ana-li-sis Sis-tem Pen-de-tek-si Pe-ni-pu-an Tran-sak-si Kar-tu Kre-dit de-ngan
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 134--134
+Underfull \hbox (badness 2941) in paragraph at lines 138--138
 \OT1/minntx/m/n/12 Al-go-ri-tma Ma-chi-ne Le-ar-ning''. []\OT1/ntxtlf/m/it/12 Jurnal Tek-no-lo-gi In-for-ma-ti-ka dan
  []
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'dietterich2002ensemble' on input line 134.
+(biblatex)                at entry 'dietterich2002ensemble' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'dietterich2002ensemble' on input line 134.
+(biblatex)                at entry 'dietterich2002ensemble' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -3990,11 +3810,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'dietterich2002ensemble' on input line 134.
+(biblatex)                at entry 'dietterich2002ensemble' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'liu2004effect' on input line 134.
+(biblatex)                at entry 'liu2004effect' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4005,11 +3825,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'chawla2002smote' on input line 134.
+(biblatex)                at entry 'chawla2002smote' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'chawla2002smote' on input line 134.
+(biblatex)                at entry 'chawla2002smote' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4020,20 +3840,20 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'chawla2002smote' on input line 134.
+(biblatex)                at entry 'chawla2002smote' on input line 138.
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 134--134
+Underfull \hbox (badness 1442) in paragraph at lines 138--138
 []\OT1/minntx/m/n/12 Nitesh V Cha-wla, Ke-vin W Bo-wyer, La-wren-ce O Ha-ll [].
  []
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry '4633969' on input line 134.
+(biblatex)                at entry '4633969' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry '4633969' on input line 134.
+(biblatex)                at entry '4633969' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4044,20 +3864,20 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry '4633969' on input line 134.
+(biblatex)                at entry '4633969' on input line 138.
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 134--134
+Underfull \hbox (badness 1337) in paragraph at lines 138--138
 \OT1/minntx/m/n/12 syn-the-tic sam-pling app-ro-a-ch for im-ba-lan-ced le-ar-ning''. []\OT1/ntxtlf/m/it/12 2008 IE-EE
  []
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'brandt2021comparative' on input line 134.
+(biblatex)                at entry 'brandt2021comparative' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'brandt2021comparative' on input line 134.
+(biblatex)                at entry 'brandt2021comparative' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4068,11 +3888,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'dal2015calibrating' on input line 134.
+(biblatex)                at entry 'dal2015calibrating' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'dal2015calibrating' on input line 134.
+(biblatex)                at entry 'dal2015calibrating' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4083,7 +3903,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'dal2015calibrating' on input line 134.
+(biblatex)                at entry 'dal2015calibrating' on input line 138.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4095,11 +3915,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [57]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'asha2021credit' on input line 134.
+(biblatex)                at entry 'asha2021credit' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'asha2021credit' on input line 134.
+(biblatex)                at entry 'asha2021credit' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4110,15 +3930,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'asha2021credit' on input line 134.
+(biblatex)                at entry 'asha2021credit' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'tayebi2021hyperparameter' on input line 134.
+(biblatex)                at entry 'tayebi2021hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'tayebi2021hyperparameter' on input line 134.
+(biblatex)                at entry 'tayebi2021hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4129,15 +3949,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'tayebi2021hyperparameter' on input line 134.
+(biblatex)                at entry 'tayebi2021hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry '9121114' on input line 134.
+(biblatex)                at entry '9121114' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry '9121114' on input line 134.
+(biblatex)                at entry '9121114' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4148,20 +3968,20 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry '9121114' on input line 134.
+(biblatex)                at entry '9121114' on input line 138.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 134--134
+Underfull \hbox (badness 1173) in paragraph at lines 138--138
 \OT1/minntx/m/n/12 Fra-ud De-te-ction Using Ma-chi-ne Le-ar-ning''. []\OT1/ntxtlf/m/it/12 2020 4th In-ter-na-tio-nal
  []
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'khalid2024enhancing' on input line 134.
+(biblatex)                at entry 'khalid2024enhancing' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'khalid2024enhancing' on input line 134.
+(biblatex)                at entry 'khalid2024enhancing' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4172,20 +3992,20 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'page' untranslated
-(biblatex)                at entry 'khalid2024enhancing' on input line 134.
+(biblatex)                at entry 'khalid2024enhancing' on input line 138.
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 134--134
+Underfull \hbox (badness 2608) in paragraph at lines 138--138
 []\OT1/minntx/m/n/12 Abdul Rehm-an Kha-lid, Nsi-kak Owoh, Omair Uth-ma-ni [].
  []
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'purwar2023credit' on input line 134.
+(biblatex)                at entry 'purwar2023credit' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'purwar2023credit' on input line 134.
+(biblatex)                at entry 'purwar2023credit' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4196,7 +4016,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'purwar2023credit' on input line 134.
+(biblatex)                at entry 'purwar2023credit' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4207,7 +4027,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'fradkov2020early' on input line 134.
+(biblatex)                at entry 'fradkov2020early' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4218,20 +4038,20 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'fradkov2020early' on input line 134.
+(biblatex)                at entry 'fradkov2020early' on input line 138.
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 134--134
+Underfull \hbox (badness 1275) in paragraph at lines 138--138
 []\OT1/minntx/m/n/12 Alexander L Frad-kov. ``Ear-ly his-tory of ma-chi-ne le-ar-ning''. []\OT1/ntxtlf/m/it/12 IFAC-
  []
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'jordan2015machine' on input line 134.
+(biblatex)                at entry 'jordan2015machine' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'jordan2015machine' on input line 134.
+(biblatex)                at entry 'jordan2015machine' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4242,15 +4062,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'jordan2015machine' on input line 134.
+(biblatex)                at entry 'jordan2015machine' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'cunningham2008supervised' on input line 134.
+(biblatex)                at entry 'cunningham2008supervised' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'cunningham2008supervised' on input line 134.
+(biblatex)                at entry 'cunningham2008supervised' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4261,15 +4081,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'cunningham2008supervised' on input line 134.
+(biblatex)                at entry 'cunningham2008supervised' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'hochreiter2001learning' on input line 134.
+(biblatex)                at entry 'hochreiter2001learning' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'hochreiter2001learning' on input line 134.
+(biblatex)                at entry 'hochreiter2001learning' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4280,7 +4100,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'hochreiter2001learning' on input line 134.
+(biblatex)                at entry 'hochreiter2001learning' on input line 138.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4292,7 +4112,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [58]
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'ruder2016overview' on input line 134.
+(biblatex)                at entry 'ruder2016overview' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4303,11 +4123,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'igiri2015effect' on input line 134.
+(biblatex)                at entry 'igiri2015effect' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'igiri2015effect' on input line 134.
+(biblatex)                at entry 'igiri2015effect' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4318,7 +4138,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'zeiler2012adadelta' on input line 134.
+(biblatex)                at entry 'zeiler2012adadelta' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4329,7 +4149,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'smith2018disciplined' on input line 134.
+(biblatex)                at entry 'smith2018disciplined' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4347,7 +4167,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'flitcroft2009credit' on input line 134.
+(biblatex)                at entry 'flitcroft2009credit' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4365,11 +4185,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'haixiang2017learning' on input line 134.
+(biblatex)                at entry 'haixiang2017learning' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'haixiang2017learning' on input line 134.
+(biblatex)                at entry 'haixiang2017learning' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4380,11 +4200,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'haixiang2017learning' on input line 134.
+(biblatex)                at entry 'haixiang2017learning' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'krawczyk2016learning' on input line 134.
+(biblatex)                at entry 'krawczyk2016learning' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4395,15 +4215,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'krawczyk2016learning' on input line 134.
+(biblatex)                at entry 'krawczyk2016learning' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'yang2020hyperparameter' on input line 134.
+(biblatex)                at entry 'yang2020hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'yang2020hyperparameter' on input line 134.
+(biblatex)                at entry 'yang2020hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4414,15 +4234,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'yang2020hyperparameter' on input line 134.
+(biblatex)                at entry 'yang2020hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'bischl2023hyperparameter' on input line 134.
+(biblatex)                at entry 'bischl2023hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'bischl2023hyperparameter' on input line 134.
+(biblatex)                at entry 'bischl2023hyperparameter' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4433,7 +4253,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'dong2018feature' on input line 134.
+(biblatex)                at entry 'dong2018feature' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4444,11 +4264,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'song2015decision' on input line 134.
+(biblatex)                at entry 'song2015decision' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'song2015decision' on input line 134.
+(biblatex)                at entry 'song2015decision' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4459,7 +4279,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'page' untranslated
-(biblatex)                at entry 'song2015decision' on input line 134.
+(biblatex)                at entry 'song2015decision' on input line 138.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4471,11 +4291,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [59]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'rojas2012graphical' on input line 134.
+(biblatex)                at entry 'rojas2012graphical' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'rojas2012graphical' on input line 134.
+(biblatex)                at entry 'rojas2012graphical' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4486,15 +4306,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'rojas2012graphical' on input line 134.
+(biblatex)                at entry 'rojas2012graphical' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'suthaharan2016decision' on input line 134.
+(biblatex)                at entry 'suthaharan2016decision' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'suthaharan2016decision' on input line 134.
+(biblatex)                at entry 'suthaharan2016decision' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4505,11 +4325,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'suthaharan2016decision' on input line 134.
+(biblatex)                at entry 'suthaharan2016decision' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'breiman2001random' on input line 134.
+(biblatex)                at entry 'breiman2001random' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4520,11 +4340,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'breiman2001random' on input line 134.
+(biblatex)                at entry 'breiman2001random' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'breiman1996bagging' on input line 134.
+(biblatex)                at entry 'breiman1996bagging' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4535,16 +4355,16 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'breiman1996bagging' on input line 134.
+(biblatex)                at entry 'breiman1996bagging' on input line 138.
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 134--134
+Underfull \hbox (badness 1354) in paragraph at lines 138--138
 []\OT1/minntx/m/n/12 Leo Bre-im-an. ``Bag-ging pre-di-ctors''. []\OT1/ntxtlf/m/it/12 Machine le-ar-ning\OT1/minntx/m/n/12 : 24 (1996),
  []
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'chen2015xgboost' on input line 134.
+(biblatex)                at entry 'chen2015xgboost' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4555,11 +4375,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'chen2016xgboost' on input line 134.
+(biblatex)                at entry 'chen2016xgboost' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'chen2016xgboost' on input line 134.
+(biblatex)                at entry 'chen2016xgboost' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4570,7 +4390,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'chen2016xgboost' on input line 134.
+(biblatex)                at entry 'chen2016xgboost' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4581,11 +4401,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'chicco2020advantages' on input line 134.
+(biblatex)                at entry 'chicco2020advantages' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'chicco2020advantages' on input line 134.
+(biblatex)                at entry 'chicco2020advantages' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4596,15 +4416,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'chicco2020advantages' on input line 134.
+(biblatex)                at entry 'chicco2020advantages' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'chicco2023matthews' on input line 134.
+(biblatex)                at entry 'chicco2023matthews' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'chicco2023matthews' on input line 134.
+(biblatex)                at entry 'chicco2023matthews' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4615,11 +4435,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'page' untranslated
-(biblatex)                at entry 'chicco2023matthews' on input line 134.
+(biblatex)                at entry 'chicco2023matthews' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'andothers' untranslated
-(biblatex)                at entry 'leborgne2022fraud' on input line 134.
+(biblatex)                at entry 'leborgne2022fraud' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4629,21 +4449,21 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                for \mkbibdatelong.
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 134--134
+Underfull \hbox (badness 1215) in paragraph at lines 138--138
 []\OT1/minntx/m/n/12 Yann-A[]el Le Borg-ne, Wis-sam Si-bli-ni, Ber-trand Le-bi-chot [].
  []
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'mckinney2024pandas' on input line 134.
+(biblatex)                at entry 'mckinney2024pandas' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'version' untranslated
-(biblatex)                at entry 'mckinney2024pandas' on input line 134.
+(biblatex)                at entry 'mckinney2024pandas' on input line 138.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'mckinney2024pandas' on input line 134.
+(biblatex)                at entry 'mckinney2024pandas' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4662,7 +4482,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [60]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'gonick1993cartoon' on input line 134.
+(biblatex)                at entry 'gonick1993cartoon' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4673,7 +4493,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'albahli2024efficient' on input line 134.
+(biblatex)                at entry 'albahli2024efficient' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4684,16 +4504,16 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'albahli2024efficient' on input line 134.
+(biblatex)                at entry 'albahli2024efficient' on input line 138.
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 134--134
+Underfull \hbox (badness 4303) in paragraph at lines 138--138
 \OT1/minntx/m/n/12 per-for-man-ce wi-th Ba-ye-si-an op-ti-mi-za-tion''. []\OT1/ntxtlf/m/it/12 Multimedia to-ols and
  []
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'Verma2024ExploringKX' on input line 134.
+(biblatex)                at entry 'Verma2024ExploringKX' on input line 138.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -4735,18 +4555,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38768 strings out of 475670
- 731071 string characters out of 5784921
- 1955975 words of memory out of 5000000
- 59882 multiletter control sequences out of 15000+600000
+ 38769 strings out of 475670
+ 731104 string characters out of 5784921
+ 1968975 words of memory out of 5000000
+ 59883 multiletter control sequences out of 15000+600000
  594801 words of font info for 106 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  100i,16n,120p,1878b,1685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (77 pages, 2301267 bytes).
+Output written on thesis.pdf (77 pages, 2300323 bytes).
 PDF statistics:
- 1318 PDF objects out of 1440 (max. 8388607)
- 1154 compressed objects within 12 object streams
+ 1311 PDF objects out of 1440 (max. 8388607)
+ 1147 compressed objects within 12 object streams
  391 named destinations out of 1000 (max. 500000)
  691 words of extra memory for PDF output out of 10000 (max. 10000000)
 

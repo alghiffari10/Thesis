@@ -528,6 +528,11 @@ INPUT ./chapters/chapter-2.tex
 INPUT ./chapters/chapter-2.tex
 INPUT ./chapters/chapter-2.tex
 INPUT chapters/chapter-2.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
+INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT ./figure/image.png
 INPUT ./figure/image.png
 INPUT ./figure/image.png
@@ -695,11 +700,6 @@ INPUT ./figure/AlurPembuatanModel.png
 INPUT ./figure/AlurPembuatanModel.png
 INPUT ./figure/AlurPembuatanModel.png
 INPUT ./figure/AlurPembuatanModel.png
-INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
-INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT ./chapters/chapter-4.tex
 INPUT ./chapters/chapter-4.tex
 INPUT ./chapters/chapter-4.tex

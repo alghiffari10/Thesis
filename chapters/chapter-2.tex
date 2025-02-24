@@ -13,37 +13,120 @@ Pada penelitian ini, peneliti melakukan eksplorasi dan mendapatkan tinjauan pust
     \item Tahun 2023, Purwar, Archana and Manju, Ms, melakukan penelitian terkait \textit{Credit card fraud detection using XGBoost for imbalance dataset}. Tujuan dari penelitian ini ialah membuat model pendeteksi transaksi penipuan kartu kredit dengan menggunakan \textit{learning algorithm} xgboost. Hasil penelitian ini menunjukan bahwa xgboost menghasilkan performa model yang baik. \cite{purwar2023credit}
 \end{enumerate}
 
-\begin{longtable}{| b{0.05\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.15\textwidth}|p{0.25\textwidth}|} % Longtable berguna agar tabel dapat terpotong di halaman baru
-	\caption{Literasi Penelitian Terdahulu}
-	\label{table:2.literasi}\\
-	\hline
-	\textbf{No.} & \textbf{Judul} & \textbf{Masalah} & \textbf{Metode} & \textbf{Hasil} \\
-	\hline
-	\endhead % Agar semua baris diatas ini diulang jika melewati halaman baru (repeat header row)
-	1. & \textit{Credit card fraud detection using artificial neural network}  & Penipuan dalam transaksi kartu kredit merupakan hal yang umum saat ini karena sebagian besar dari kita lebih sering menggunakan metode pembayaran kartu kredit. Hal ini disebabkan kemajuan teknologi dan peningkatan transaksi online mengakibatkan penipuan yang menyebabkan kerugian finansial yang sangat besar. & support vector machine (SVM),  k-nearest neighbor (KNN), Artificial neural network (ANN) & SVM accuracy= 0.9349 precision= 0.9743 recall= 0.8976, KNN accuracy= 0.9982 precision= 0.7142 recall= 0.0393, dan ANN accuracy= 0.9992 precision= 0.8115 recall= 0.7619\\ 
-	\hline
-	2. & \textit{Hyperparameter optimization using genetic algorithms to detect frauds transactions} & sekarang servis online berkembang menjadi sangat besar dan maka dengan itu juga penipuan dalam servis online juga menjadi lebih besar, termasuk penipuan traksasi kartu kredit. & SMOTE, grid search (GS) methods, random forest (RF),
-    AdaBoost (AB), logistic regression (LR), decision tree (DT), and support vector machine (SVM) classifier. & SVM: Precision=95\%, Recall=95\%, F1-score=95\%, Accuracy=94\%, Time=19.039
-    LR: Precision=97\%, Recall=91\%, F1-score=94\%, Accuracy=94\%, Time=104.016
-    AB: Precision=98\%, Recall=93\%, F1-score=95\%, Accuracy=95\%, Time=235.037
-    RF: Precision=96\%, Recall=92\%, F1-score=94\%, Accuracy=94\%, Time=130.300
-    DT: Precision=94\%, Recall=91\%, F1-score=93\%, Accuracy=92\%, Time=12.709\\ 
-	\hline
-	3. & Analisis sistem pendeteksi penipuan transaksi kartu kredit dengan algoritma machine learning & Banyaknya volume transaksi dan cepatnya proses transaksi yang berlangsung, membuat tidak mungkin untuk diawasi secara manual oleh manusia karena itu penpuan transaksi menjadi masalah dan harus diselesaikan dengan machine & analisis komparasi model + imbalance, model + SMOTE, model + param + imbalance, model + param + SMOTE, dengan model decision tree (DT), random forest (RF), logistic regression (LR), dan support vector machine (SVM) & algoritma random forest (RF) memiliki performa paling baik di antara semua model,
-    disusul oleh model dengan algoritma decision tree (DT), hal ini pula yang membuktikan
-    bahwa ensemble learning adalah teknik terbaik untuk fraud detection.\\ 
-	\hline
-    4. & \textit{Credit card fraud detection using support vector machine} & Penipuan kartu kredit tidak diragukan lagi merupakan ekspresi penipuan kriminal. Identifikasi penipuan tampaknya menjadi masalah rumit yang memerlukan banyak keterampilan hingga memasukkan algoritma terkait pembelajaran mesin ke dalamnya. & SVM &  Hasil simulasi menunjukan bahwa SVM lebih baik dibandingkan \textit{state of art approaches}. \\
-    \hline
-    5. & \textit{Credit card fraud detection using machine learning} & Deteksi penipuan kartu kredit saat ini paling banyak dilakukan
-    karena permasalahannya yang sering terjadi di dunia saat ini. hal ini disebabkan
-    peningkatan transaksi online dan platform e-commerce & Adaboost dan Random Forest & Random Forest precision= 0.97\% recall= 89\% f1-score= 0.93 AUC=94\%, Adaboost precision= 89\% recall= 81,5\% f1-score= 84,5\% AUC=96\%.\\
-    \hline
-    6. & \textit{Enhancing credit card fraud detection: an ensemble machine learning approach} & Di era kemajuan digital, meningkatnya penipuan kartu kredit mengharuskan adanya pengembangan sistem deteksi penipuan yang kuat dan efisien. & Membandingkan ensemble learning dan traditional machine learning Support Vector Machine
-    (SVM), K-Nearest Neighbor (KNN), Random Forest (RF), Bagging, and Boosting classifiers.) & Metode ensamble mengungguli model individual, menunjukkan efektivitas penggabungan beberapa model. \\
-    \hline
-    7. & \textit{Credit card fraud detection using XGBoost for imbalanced data set} & peningkatan tingkat penipuan di seluruh dunia, berbagai algoritma pembelajaran mesin digunakan oleh analis dan peneliti untuk mendeteksi dan menganalisis penipuan dalam transaksi online. Namun, kumpulan data pelatihan mungkin memiliki beberapa instance dari satu atau lebih instance dari kelas lain dalam kasus klasifikasi biner kelas tertentu yang membuat hasilnya menjadi bias. & XGBOOST & F1 score, recall and accuracy as 82.78\%, 78.9\% and 99.3\% \\
-    \hline
+
+\begin{longtable}{|p{0.05\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.15\textwidth}|p{0.25\textwidth}|}
+ \caption{Literasi Penelitian Terdahulu\label{table:2.literasi}}\\ \hline
+ \textbf{No.} & \textbf{Judul} & \textbf{Masalah} & \textbf{Metode} & \textbf{Hasil} \\ \hline
+ \endfirsthead
+ % Header untuk halaman selanjutnya dibiarkan kosong
+ \endhead
+ 1. & \textit{Credit card fraud detection using artificial neural network}  &
+ Penipuan dalam transaksi kartu kredit merupakan hal yang umum saat ini karena sebagian besar dari kita lebih sering menggunakan metode pembayaran kartu kredit. Hal ini disebabkan kemajuan teknologi dan peningkatan transaksi online mengakibatkan penipuan yang menyebabkan kerugian finansial yang sangat besar. &
+ support vector machine (SVM), k-nearest neighbor (KNN), Artificial neural network (ANN) &
+ \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+    \item SVM:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Accuracy: 0.9349
+        \item Precision: 0.9743
+        \item Recall: 0.8976
+    \end{itemize}
+    \item KNN:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Accuracy: 0.9982
+        \item Precision: 0.7142
+        \item Recall: 0.0393
+    \end{itemize}
+    \item ANN:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Accuracy: 0.9992
+        \item Precision: 0.8115
+        \item Recall: 0.7619
+    \end{itemize}
+\end{itemize} \\ \hline
+ 2. & \textit{Hyperparameter optimization using genetic algorithms to detect frauds transactions} &
+ sekarang servis online berkembang menjadi sangat besar dan maka dengan itu juga penipuan dalam servis online juga menjadi lebih besar, termasuk penipuan traksasi kartu kredit. &
+ SMOTE, grid search (GS) methods, random forest (RF), AdaBoost (AB), logistic regression (LR), decision tree (DT), dan support vector machine (SVM) classifier. &
+ \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+    \item SVM:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Precision: 95\%
+        \item Recall: 95\%
+        \item F1-score: 95\%
+        \item Accuracy: 94\%
+        \item Time: 19.039
+    \end{itemize}
+    \item LR:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Precision: 97\%
+        \item Recall: 91\%
+        \item F1-score: 94\%
+        \item Accuracy: 94\%
+        \item Time: 104.016
+    \end{itemize}
+    \item AB:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Precision: 98\%
+        \item Recall: 93\%
+        \item F1-score: 95\%
+        \item Accuracy: 95\%
+        \item Time: 235.037
+    \end{itemize}
+    \item RF:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Precision: 96\%
+        \item Recall: 92\%
+        \item F1-score: 94\%
+        \item Accuracy: 94\%
+        \item Time: 130.300
+    \end{itemize}
+    \item DT:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Precision: 94\%
+        \item Recall: 91\%
+        \item F1-score: 93\%
+        \item Accuracy: 92\%
+        \item Time: 12.709
+    \end{itemize}
+\end{itemize} \\ \hline
+ 3. & Analisis sistem pendeteksi penipuan transaksi kartu kredit dengan algoritma machine learning &
+ Banyaknya volume transaksi dan cepatnya proses transaksi yang berlangsung, membuat tidak mungkin untuk diawasi secara manual oleh manusia karena itu penpuan transaksi menjadi masalah dan harus diselesaikan dengan machine &
+ analisis komparasi model + imbalance, model + SMOTE, model + param + imbalance, model + param + SMOTE, dengan model decision tree (DT), random forest (RF), logistic regression (LR), dan support vector machine (SVM) &
+ Algoritma \textbf{Random Forest (RF)} memiliki performa paling baik di antara semua model, disusul oleh model dengan algoritma \textbf{Decision Tree (DT)}, hal ini pula yang membuktikan bahwa \textbf{ensemble learning adalah teknik terbaik untuk fraud detection}. \\ \hline
+ 4. & \textit{Credit card fraud detection using support vector machine} &
+ Penipuan kartu kredit tidak diragukan lagi merupakan ekspresi penipuan kriminal. Identifikasi penipuan tampaknya menjadi masalah rumit yang memerlukan banyak keterampilan hingga memasukkan algoritma terkait pembelajaran mesin ke dalamnya. &
+ SVM &
+ Hasil simulasi menunjukan bahwa \textbf{SVM lebih baik dibandingkan \textit{state of art approaches}}. \\ \hline
+ 5. & \textit{Credit card fraud detection using machine learning} &
+ Deteksi penipuan kartu kredit saat ini paling banyak dilakukan karena permasalahannya yang sering terjadi di dunia saat ini. Hal ini disebabkan peningkatan transaksi online dan platform e-commerce &
+ Adaboost dan Random Forest &
+ \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+    \item Random Forest:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Precision: 0.97\%
+        \item Recall: 89\%
+        \item F1-score: 0.93
+        \item AUC: 94\%
+    \end{itemize}
+    \item Adaboost:
+    \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+        \item Precision: 89\%
+        \item Recall: 81,5\%
+        \item F1-score: 84,5\%
+        \item AUC: 96\%
+    \end{itemize}
+\end{itemize} \\ \hline
+ 6. & \textit{Enhancing credit card fraud detection: an ensemble machine learning approach} &
+ Di era kemajuan digital, meningkatnya penipuan kartu kredit mengharuskan adanya pengembangan sistem deteksi penipuan yang kuat dan efisien. &
+ Membanding kan ensemble learning dan traditional machine learning: Support Vector Machine (SVM), K-Nearest Neighbor (KNN), Random Forest (RF), Bagging, dan Boosting classifiers. &
+ Metode \textbf{Ensemble Learning mengungguli model individual}, menunjukkan efektivitas penggabungan beberapa model. \\ \hline
+ 7. & \textit{Credit card fraud detection using XGBoost for imbalanced data set} &
+ Peningkatan tingkat penipuan di seluruh dunia, berbagai algoritma pembelajaran mesin digunakan oleh analis dan peneliti untuk mendeteksi dan menganalisis penipuan dalam transaksi online. Namun, kumpulan data pelatihan mungkin memiliki beberapa instance dari satu atau lebih instance dari kelas lain dalam kasus klasifikasi biner yang membuat hasilnya menjadi bias. &
+ XGBOOST &
+ \begin{itemize}[leftmargin=*] % Gunakan enumitem untuk atur margin
+    \item F1 score: 82.78\%
+    \item Recall: 78.9\%
+    \item Accuracy: 99.3\%
+\end{itemize} \\ \hline
 \end{longtable}
 
 \section{Dasar Teori} \label{II.Teori}

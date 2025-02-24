@@ -11,6 +11,8 @@
 %
 %-------------------------------------------------------------------%
 
+% TODO Perbaiki fromat daftar tabel dan juga gambar
+
 % Import package penting
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -74,7 +76,7 @@
 \usepackage{setspace}		% Spacing paragraph
 \usepackage{fancyhdr}		% Agar nomor halaman di pojok kanan atas
 \usepackage{caption} 		% Caption gambar & tabel
-
+\usepackage{enumitem} % Tambahkan package enumitem
 % Setting supaya nomor halaman pertama dengan "chapter"
 % berada di kanan atas
 \fancypagestyle{plain}{%
@@ -130,6 +132,8 @@
 	\renewcommand{\listfigurename}{DAFTAR GAMBAR}%
 	\renewcommand{\listtablename}{DAFTAR TABEL}%
 }
+
+
 
 % Untuk mengganti nama bulan di babel bahasa
 % tapi belum jalan (RDB)
