@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {1.3}Tujuan}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Batasan Masalah}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Manfaat Penelitian}{4}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{4}{section.1.6}%
+\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{5}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Bab I}{5}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Bab II}{5}{subsection.1.6.2}%
 \contentsline {subsection}{\numberline {1.6.3}Bab III}{5}{subsection.1.6.3}%

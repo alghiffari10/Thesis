@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.3)  24 FEB 2025 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.3)  24 FEB 2025 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1525,11 +1525,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15] (./chapters/chapter-1.tex
 BAB I.
-
-Underfull \hbox (badness 1038) in paragraph at lines 7--16
-\OT1/ntxtlf/m/it/12 Esem-ble le-ar-ning \OT1/minntx/m/n/12 me-ru-pak-an al-go-ri-tma yang me-ning-katk-an per-for-ma pre-dik-si
- []
-
 [1
 
 ]
@@ -1541,17 +1536,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Underfull \hbox (badness 2073) in paragraph at lines 21--22
+Underfull \hbox (badness 2073) in paragraph at lines 26--27
 \OT1/minntx/m/n/12 meng-gu-nak-an al-go-ri-tma Ran-dom Fo-rest dan XGBo-ost de-ngan me-to-de
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 22--23
+Underfull \hbox (badness 1242) in paragraph at lines 27--28
 []\OT1/minntx/m/n/12 Bagaimana ki-ner-ja me-to-de over-sam-pling SMO-TE dan ADA-SYN da-lam
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 28--29
+Underfull \hbox (badness 2073) in paragraph at lines 33--34
 \OT1/minntx/m/n/12 meng-gu-nak-an al-go-ri-tma Ran-dom Fo-rest dan XGBo-ost de-ngan me-to-de
  []
 
@@ -1563,7 +1558,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Underfull \hbox (badness 1360) in paragraph at lines 43--44
+Underfull \hbox (badness 1360) in paragraph at lines 48--49
 []\OT1/minntx/m/n/12 Mengetahui ca-ra me-la-kuk-an over-sam-pling de-ngan me-to-de SMO-TE dan
  []
 
@@ -1575,7 +1570,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]) (./chapters/chapter-2.tex
-Underfull \hbox (badness 1253) in paragraph at lines 59--1
+Underfull \hbox (badness 1253) in paragraph at lines 64--1
 []\OT1/minntx/m/n/12 Bab ini ber-i-sik-an pem-ba-has-an ten-tang ke-sim-pul-an ber-da-sark-an ha-sil dan
  []
 
@@ -4563,7 +4558,7 @@ Here is how much of TeX's memory you used:
  264 hyphenation exceptions out of 8191
  100i,16n,120p,1878b,1685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on thesis.pdf (77 pages, 2300323 bytes).
+Output written on thesis.pdf (77 pages, 2300407 bytes).
 PDF statistics:
  1311 PDF objects out of 1440 (max. 8388607)
  1147 compressed objects within 12 object streams
