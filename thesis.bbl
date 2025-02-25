@@ -17,28 +17,24 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{suryohadibroto1987surat}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SIP}{%
-         family={Suryohadibroto},
+  \entry{setiawan2022perlindungan}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SY}{%
+         family={Setiawan},
          familyi={S\bibinitperiod},
-         given={Iman\bibnamedelima Prayogo},
-         giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=PD}{%
-         family={Prakoso},
-         familyi={P\bibinitperiod},
-         given={Djoko},
-         giveni={D\bibinitperiod},
+         given={Yudhi},
+         giveni={Y\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SIPPD1}
-    \strng{fullhash}{SIPPD1}
+    \strng{namehash}{SY1}
+    \strng{fullhash}{SY1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Surat berharga: alat pembayaran dalam masyarakat modern}
-    \field{journaltitle}{(No Title)}
-    \field{year}{1987}
+    \field{number}{1}
+    \field{title}{Perlindungan Hukum Terhadap Pemegang Kartu Kredit Dalam Klausula Baku}
+    \field{volume}{2}
+    \field{journaltitle}{Commerce Law}
+    \field{year}{2022}
   \endentry
 
   \entry{hendarsyah2020analisis}{article}{}
@@ -132,26 +128,6 @@
     \field{title}{A review of fraud detection techniques: Credit card}
     \field{volume}{45}
     \field{year}{2012}
-  \endentry
-
-  \entry{chase_jpmorgan_fraud_management}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=MCJ}{%
-         family={Morgan},
-         familyi={M\bibinitperiod},
-         given={Chase \&\bibnamedelima J.P.},
-         giveni={C\bibinitperiod\bibinitdelim \bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Chase Commercial Card}%
-    }
-    \strng{namehash}{MCJ1}
-    \strng{fullhash}{MCJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Fraud Management in Commercial Cards: Proactive Vigilance and Collaboration Required}
-    \field{year}{2016}
   \endentry
 
   \entry{west2016intelligent}{article}{}
