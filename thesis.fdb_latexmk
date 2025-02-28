@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex thesis"] 1740625019.5194 "thesis.aux" "thesis.bbl" "thesis" 1740629458.11905 0
+["bibtex thesis"] 1740625019.5194 "thesis.aux" "thesis.bbl" "thesis" 1740727634.20062 0
   "./references.bib" 1740489765.91679 19015 12e34db6954bb2e86bdb5139197001b3 ""
-  "./thesis-blx.bib" 1740629457.62105 343 3ed23ee6de99140f139220c4e7012957 ""
+  "./thesis-blx.bib" 1740727633.75088 343 3ed23ee6de99140f139220c4e7012957 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1678141846 65484 b7949c47a88ed6dca66ebc7a04577312 ""
-  "thesis.aux" 1740629457.60205 43492 7447cf8979ec7bbc0c33de874fd3e6d7 "pdflatex"
+  "thesis.aux" 1740727633.73388 43492 7447cf8979ec7bbc0c33de874fd3e6d7 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1740629450.91808 "thesis.tex" "thesis.pdf" "thesis" 1740629458.11941 0
+["pdflatex"] 1740727626.93955 "thesis.tex" "thesis.pdf" "thesis" 1740727634.20138 0
   "/etc/texmf/web2c/texmf.cnf" 1733205648.28066 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -252,7 +252,7 @@
   "chapters/abstract-id.tex" 1733179392 952 2287f5415ff4524cf04e5a173f85f7b9 ""
   "chapters/appendix.tex" 1733209318.134 75 1c5e58ed4d9ace2feaf33d666337414b ""
   "chapters/approval.tex" 1733179392 2006 a18e772785b663c1ce890718b4cb6afa ""
-  "chapters/chapter-1.tex" 1740625284.83628 9738 a72a9b09979caa64d231961ffbf9ae36 ""
+  "chapters/chapter-1.tex" 1740638448.58865 9738 a72a9b09979caa64d231961ffbf9ae36 ""
   "chapters/chapter-2.tex" 1740536958.10894 50023 879f047bdf1735c60f4d40154b9d1301 ""
   "chapters/chapter-3.tex" 1740536958.10894 22363 7ba4078e2fb1b5a4a501b17e9f8431ec ""
   "chapters/chapter-4.tex" 1733179392 1946 8ea3ee95384431a13111217267f19f16 ""
@@ -262,7 +262,7 @@
   "chapters/publication.tex" 1733179392 1597 3fba6da57c684e1b5ee4f01d4e90a4ec ""
   "chapters/statement.tex" 1733179392 727 eea73c62f64a2f78ca77c667b8078982 ""
   "chapters/summary.tex" 1733179392 558 71712ec4c525c11a320e9daf19de873d ""
-  "config/config.sty" 1740629425.15954 8717 ffbd921eec1068cbea41c91830802a4b ""
+  "config/config.sty" 1740727626.5805 8715 6bdce66a6ca47058a1883d7d326c815e ""
   "figure/AlurPembuatanModel.png" 1733179392 568096 f60602ef3cd80fbdd3b839c3010a54cb ""
   "figure/Learning rate besar.png" 1733179392 18523 d35df355247bf491af069c98dc78010c ""
   "figure/Learning rate kecil.png" 1733179392 12427 7e9be9875daee2bb6213502ad1a2bb43 ""
@@ -293,15 +293,15 @@
   "figure/visualisasi_data_sesudah_smote.png" 1733179392 36136 1435a78686dc48744e826ff7638c1e8d ""
   "figure/zeta.png" 1733179392 64872 049cf7bf50c7742826863badcc291f28 ""
   "resources/itera-logo.png" 1733179392 78675 43d9dac68e9820c3da998fcac4345f75 ""
-  "thesis.aux" 1740629457.60205 43492 7447cf8979ec7bbc0c33de874fd3e6d7 "pdflatex"
+  "thesis.aux" 1740727633.73388 43492 7447cf8979ec7bbc0c33de874fd3e6d7 "pdflatex"
   "thesis.bbl" 1740625019.58944 51215 93d9452a0c9af662261d7357390b2973 "bibtex thesis"
-  "thesis.equ" 1740629457.62305 1095 54dd29af65d22747bcf80436a329db91 "pdflatex"
-  "thesis.lof" 1740629457.62305 3388 a336ed987a56118d7c15c6dce793ae88 "pdflatex"
-  "thesis.lot" 1740629457.62305 665 a3c22aa402566a349b275ae0c5ae7875 "pdflatex"
-  "thesis.out" 1740629457.61605 9238 c164e274516c5ee5504eacc11498c1d0 "pdflatex"
-  "thesis.run.xml" 1740629457.62305 2573 3bf4ba72e3f2d69c9b37d8737ec3c4bf "pdflatex"
+  "thesis.equ" 1740727633.75188 1095 54dd29af65d22747bcf80436a329db91 "pdflatex"
+  "thesis.lof" 1740727633.75188 3388 a336ed987a56118d7c15c6dce793ae88 "pdflatex"
+  "thesis.lot" 1740727633.75188 665 a3c22aa402566a349b275ae0c5ae7875 "pdflatex"
+  "thesis.out" 1740727633.74688 9238 c164e274516c5ee5504eacc11498c1d0 "pdflatex"
+  "thesis.run.xml" 1740727633.75188 2573 3bf4ba72e3f2d69c9b37d8737ec3c4bf "pdflatex"
   "thesis.tex" 1740536958.14097 4979 8afdb4cbe6ba118711178cf27dfca70b ""
-  "thesis.toc" 1740629457.62305 6461 ef6cf82b5886a5a01a8bf019047d1ff3 "pdflatex"
+  "thesis.toc" 1740727633.75188 6461 ef6cf82b5886a5a01a8bf019047d1ff3 "pdflatex"
   (generated)
   "thesis-blx.bib"
   "thesis.aux"
