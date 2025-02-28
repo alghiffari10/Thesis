@@ -1,3 +1,4 @@
+ \renewcommand *\cftchappresnum {\MakeUppercase []{BAB}~} 
 \babel@toc {bahasa}{}\relax 
 \contentsline {chapter}{Lembar Pengesahan}{ii}{section*.2}%
 \contentsline {chapter}{Halaman Pernyataan Orisinalitas}{iii}{section*.3}%
@@ -7,9 +8,9 @@
 \contentsline {chapter}{Abstrak}{vii}{section*.7}%
 \contentsline {chapter}{Abstract}{viii}{section*.8}%
 \contentsline {chapter}{Daftar Isi}{ix}{section*.9}%
-\contentsline {chapter}{Daftar Tabel}{xii}{section*.10}%
-\contentsline {chapter}{Daftar Gambar}{xiii}{section*.11}%
-\contentsline {chapter}{Daftar Persamaan}{xv}{section*.12}%
+\contentsline {chapter}{Daftar Tabel}{xii}{section*.11}%
+\contentsline {chapter}{Daftar Gambar}{xiii}{section*.13}%
+\contentsline {chapter}{Daftar Persamaan}{xv}{section*.15}%
 \contentsline {chapter}{\numberline {I}Pendahuluan}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan masalah}{3}{section.1.2}%
@@ -73,6 +74,6 @@
 \contentsline {chapter}{\numberline {V}Kesimpulan dan Saran}{55}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{55}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{55}{section.5.2}%
-\contentsline {chapter}{Daftar Pustaka}{56}{section*.42}%
-\contentsline {chapter}{Lampiran}{62}{chapter*.43}%
+\contentsline {chapter}{Daftar Pustaka}{56}{section*.46}%
+\contentsline {chapter}{Lampiran}{62}{chapter*.47}%
 \contentsline {section}{\numberline {A}Dataset}{62}{section.Alph0.1}%
